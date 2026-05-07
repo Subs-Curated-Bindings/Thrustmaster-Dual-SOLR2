@@ -2059,7 +2059,7 @@
         </input>
     </inputs>
     <settings>
-        <startup-mode>Use Heuristic</startup-mode>
+        <startup-mode>SCM Mode</startup-mode>
         <macro-default-delay>0.05</macro-default-delay>
     </settings>
     <logical-device/>
@@ -3286,7 +3286,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Change Mode</value>
+                <value>Temporary push to Modifier while held (already in Modifier; refreshes the hold).</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3464,7 +3464,7 @@
             </macro-action>
             <property type="string">
                 <name>action-label</name>
-                <value>Macro</value>
+                <value>F4 + numpad-* keyboard chord -- bound for an unrebindable in-game action.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4079,7 +4079,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Change Mode</value>
+                <value>Hold-only Modifier mode (chord layer). Reverts on release.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4138,7 +4138,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Change Mode</value>
+                <value>Cycle into SCM mode.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5363,7 +5363,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Change Mode</value>
+                <value>Cycle into Nav mode.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5423,7 +5423,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Change Mode</value>
+                <value>Cycle re-affirms SCM mode (no-op). Paired vJoy mapping is the real action.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5522,7 +5522,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Change Mode</value>
+                <value>Cycle into Auxiliary mode.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5762,7 +5762,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Change Mode</value>
+                <value>Hold-only Modifier mode (chord layer). Reverts on release.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6094,7 +6094,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Change Mode</value>
+                <value>Cycle into Nav mode.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8409,7 +8409,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to Mouse</value>
+                <value>Routed to mouse Y so you can free-look up/down while flying in 3rd person.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8439,7 +8439,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to Mouse</value>
+                <value>Routed to mouse X so you can free-look left/right while flying in 3rd person.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10386,7 +10386,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Response Curve</value>
+                <value>Flat plateau curve to suppress potential idle-axis drift on the mouse X free-look axis.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10436,7 +10436,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Response Curve</value>
+                <value>Flat plateau curve to suppress potential idle-axis drift on the mouse Y free-look axis.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10519,7 +10519,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Response Curve</value>
+                <value>R-stick X axis curve at JG layer. Any inversion happens here, not in SC's invert menu.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10565,7 +10565,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Response Curve</value>
+                <value>R-stick Y axis curve at JG layer. Any inversion happens here, not in SC's invert menu.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10611,7 +10611,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Response Curve</value>
+                <value>R-stick axis 6 curve at JG layer. Any inversion happens here, not in SC's invert menu.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10695,7 +10695,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Response Curve</value>
+                <value>Throttle Y inverted at the JG layer here -- skips SC's in-game invert toggle.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
