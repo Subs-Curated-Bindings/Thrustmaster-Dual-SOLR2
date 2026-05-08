@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="480_ENH_PTU_SOLR2">
- <CustomisationUIHeader label="480_ENH_PTU_SOLR2" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="ENH_SOL-R2_480_PTU">
+ <CustomisationUIHeader label="ENH_SOL-R2_480_PTU" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
