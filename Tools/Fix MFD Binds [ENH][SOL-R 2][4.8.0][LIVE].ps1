@@ -28,14 +28,14 @@
     Apply the patch to only this channel. If omitted, you'll be prompted.
 
 .EXAMPLE
-    .\Fix MFD Binds [ENH][SOL-R 2][4.8.0][PTU].ps1
+    .\Fix MFD Binds [ENH][SOL-R 2][4.8.0][LIVE].ps1
     Auto-detect channels, prompt to pick.
 
 .EXAMPLE
-    .\Fix MFD Binds [ENH][SOL-R 2][4.8.0][PTU].ps1 -Channel PTU
+    .\Fix MFD Binds [ENH][SOL-R 2][4.8.0][LIVE].ps1 -Channel PTU
 
 .EXAMPLE
-    .\Fix MFD Binds [ENH][SOL-R 2][4.8.0][PTU].ps1 -InstallRoot 'D:\Games\StarCitizen' -Channel PTU
+    .\Fix MFD Binds [ENH][SOL-R 2][4.8.0][LIVE].ps1 -InstallRoot 'D:\Games\StarCitizen' -Channel PTU
 #>
 [CmdletBinding()]
 param(
@@ -95,7 +95,7 @@ if (-not (Test-Path -LiteralPath $InstallRoot)) {
         Write-Host ""
         Write-Host "Path not found: $entered" -ForegroundColor Red
         Write-Host "Re-run the script and try again, or pass it explicitly with:" -ForegroundColor Yellow
-        Write-Host "  .\Fix MFD Binds [ENH][SOL-R 2][4.8.0][PTU].ps1 -InstallRoot 'X:\path\to\StarCitizen'" -ForegroundColor Yellow
+        Write-Host "  .\Fix MFD Binds [ENH][SOL-R 2][4.8.0][LIVE].ps1 -InstallRoot 'X:\path\to\StarCitizen'" -ForegroundColor Yellow
         exit 1
     }
     $InstallRoot = $entered
