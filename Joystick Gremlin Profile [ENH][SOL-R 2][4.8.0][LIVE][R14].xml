@@ -3303,7 +3303,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Temporary push to Modifier while held (already in Modifier; refreshes the hold).</value>
+                <value>"Modifier | Modifier" Temporary push to Modifier while held (already in Modifier; refreshes the hold).</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3455,7 +3455,7 @@
             </macro-action>
             <property type="string">
                 <name>action-label</name>
-                <value>F4 + numpad-* keyboard chord -- bound for an unrebindable in-game action.</value>
+                <value>"Toggle Docking Camera | Camera" F4 + numpad-* keyboard chord -- bound for an unrebindable in-game action.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3861,7 +3861,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Hold-only Modifier mode (chord layer). Reverts on release.</value>
+                <value>"Modifier | Modifier" Hold-only Modifier mode (chord layer). Reverts on release.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3907,7 +3907,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Cycle into SCM mode.</value>
+                <value>"Master Mode Cycle | Flight Control" Cycle into SCM mode.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3963,7 +3963,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Lateral Strafe (Left/Right) | Flight Control"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3993,7 +3993,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Longitudinal Strafe (Fwd/Back) | Flight Control"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4023,7 +4023,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Mining Throttle / Salvage Spacing | Mining"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4053,7 +4053,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"On-Foot Move (Left/Right) | Miscellaneous"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4083,7 +4083,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"On-Foot Move (Fwd/Back) | Miscellaneous"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4113,7 +4113,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Vertical Strafe (Up/Down) | Flight Control"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4143,7 +4143,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Spare Axis (Unbound) | Unbound"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4173,7 +4173,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Spare Axis (Unbound) | Unbound"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4735,7 +4735,7 @@
             </macro-action>
             <property type="string">
                 <name>action-label</name>
-                <value>Clean 100ms tap on light-amp vJoy button. Activation-mode must stay "release" (not "both").</value>
+                <value>"Light Amp Toggle | Miscellaneous" Clean 100ms tap on light-amp vJoy button. Activation-mode must stay "release" (not "both").</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4755,7 +4755,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Cycle into Nav mode.</value>
+                <value>"NAV Mode | Flight Control" Cycle into Nav mode.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4801,7 +4801,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Cycle re-affirms SCM mode (no-op). Paired vJoy mapping is the real action.</value>
+                <value>"SCM Mode | Flight Control" Cycle re-affirms SCM mode (no-op). Paired vJoy mapping is the real action.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4873,7 +4873,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Cycle into Auxiliary mode.</value>
+                <value>"Toggle M/S | Flight Control" Cycle into Auxiliary mode.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5023,7 +5023,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Hold-only Modifier mode (chord layer). Reverts on release.</value>
+                <value>"Modifier | Modifier" Hold-only Modifier mode (chord layer). Reverts on release.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5251,7 +5251,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Cycle into Nav mode.</value>
+                <value>"Master Mode Cycle | Flight Control" Cycle into Nav mode.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6763,7 +6763,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Yaw | Flight Control"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6793,7 +6793,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Pitch | Flight Control"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6823,7 +6823,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Routed to mouse Y so you can free-look up/down while flying in 3rd person.</value>
+                <value>"Camera Tilt (Mouse Y) | Camera" Routed to mouse Y so you can free-look up/down while flying in 3rd person.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6853,7 +6853,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Routed to mouse X so you can free-look left/right while flying in 3rd person.</value>
+                <value>"Camera Pan (Mouse X) | Camera" Routed to mouse X so you can free-look left/right while flying in 3rd person.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6883,7 +6883,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Roll | Flight Control"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6913,7 +6913,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Spare Axis (Unbound) | Unbound"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6943,7 +6943,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Spare Axis (Unbound) | Unbound"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8139,7 +8139,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Map to vJoy</value>
+                <value>"Spare Axis (Unbound) | Unbound"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
