@@ -8719,7 +8719,7 @@
         <action id="15d5f5ce-7370-4b79-abc9-ccc516b8ac8c" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-40 — v_retract_landing_system</value>
+                <value>4WAY-HAT-L-40.xx — v_retract_landing_system</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8733,7 +8733,7 @@
         <action id="28e2e675-b467-401f-be16-c84ff2b0065a" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-40 — v_autoland | v_deploy_landing_system | v_toggle_landing_system</value>
+                <value>4WAY-HAT-L-40.xx — v_autoland | v_deploy_landing_system | v_toggle_landing_system</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8803,7 +8803,7 @@
         <action id="3d56ae15-84ec-47b0-aa73-8353817f2697" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-30 — v_view_dynamic_zoom_abs_toggle</value>
+                <value>4WAY-HAT-L-30.xx — v_view_dynamic_zoom_abs_toggle</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9027,7 +9027,7 @@
         <action id="9aa832a8-5568-4052-a010-738bd5967c9b" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-30 — v_afterburner | v_ifcs_toggle_gforce_safety | zoom</value>
+                <value>4WAY-HAT-L-30.xx — v_afterburner | v_ifcs_toggle_gforce_safety | zoom</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9069,7 +9069,7 @@
         <action id="38b9133c-947c-4d54-9134-16097d398ed8" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-40 — v_invoke_ping | jump</value>
+                <value>4WAY-HAT-L-40.xx — v_invoke_ping | jump</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9125,7 +9125,7 @@
         <action id="8cb6a26b-b9f4-49d5-9793-e581b45af316" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-30 — headtrack_camera_enabled | headtrack_enabled</value>
+                <value>4WAY-HAT-L-30.xx — headtrack_camera_enabled | headtrack_enabled</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9139,7 +9139,7 @@
         <action id="4e17f166-ca06-4980-b868-34e8e7d3ee7e" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-30 — v_view_cycle_fwd | thirdperson | v_view_cycle_fwd</value>
+                <value>4WAY-HAT-L-30.xx — v_view_cycle_fwd | thirdperson | v_view_cycle_fwd</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9153,7 +9153,7 @@
         <action id="b2799f2f-2e6a-4481-ad84-6c56cc703d14" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-30 — v_view_dynamic_zoom_abs_toggle | v_weapon_launch_missile_cinematic_hold</value>
+                <value>4WAY-HAT-L-30.xx — v_view_dynamic_zoom_abs_toggle | v_weapon_launch_missile_cinematic_hold</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9167,7 +9167,7 @@
         <action id="f38433b9-97c1-4246-a9c3-1e018b139809" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-30 — v_view_look_behind</value>
+                <value>4WAY-HAT-L-30.xx — v_view_look_behind</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9251,7 +9251,7 @@
         <action id="c10aa9bd-58a2-41be-be1f-b42f7ce2d490" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-40 — v_atc_request</value>
+                <value>4WAY-HAT-L-40.xx — v_atc_request</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9293,7 +9293,7 @@
         <action id="2f0c515e-25d9-4977-b654-646d54da3b7b" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-L-40 — v_strafe_trim_set_100_long | v_strafe_trim_set_short</value>
+                <value>4WAY-HAT-L-40.xx — v_strafe_trim_set_100_long | v_strafe_trim_set_short</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9937,7 +9937,7 @@
         <action id="f981a03e-7fd0-476a-8e89-cbe1bea98aed" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-R-40 — v_weapon_countermeasure_decoy_launch</value>
+                <value>4WAY-HAT-R-40.xx — v_weapon_countermeasure_decoy_launch</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9965,7 +9965,7 @@
         <action id="2ab2e8d0-b10a-4eba-8105-8bede835ac83" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-R-30 — v_target_lock_selected | v_target_unlock | v_target_unpin_selected_hold</value>
+                <value>4WAY-HAT-R-30.xx — v_target_lock_selected | v_target_unlock | v_target_unpin_selected_hold</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9979,7 +9979,7 @@
         <action id="edac8c30-92e7-499a-9c18-c09987128a23" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-R-30 — v_target_toggle_pin_index_1_hold | v_target_cycle_all_back | v_target_cycle_hostile_back</value>
+                <value>4WAY-HAT-R-30.xx — v_target_toggle_pin_index_1_hold | v_target_cycle_all_back | v_target_cycle_hostile_back</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9993,7 +9993,7 @@
         <action id="89883ca1-db5b-4e6f-a903-a9258489cad2" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-R-30 — v_target_pin_selected_hold | v_target_toggle_pin_index_2_hold | v_target_cycle_in_view_fwd</value>
+                <value>4WAY-HAT-R-30.xx — v_target_pin_selected_hold | v_target_toggle_pin_index_2_hold | v_target_cycle_in_view_fwd</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -10007,7 +10007,7 @@
         <action id="2cd63177-6ad1-491d-83a4-89aa48dd2111" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-R-30 — v_target_toggle_pin_index_3_hold | v_target_cycle_all_fwd | v_target_cycle_hostile_fwd</value>
+                <value>4WAY-HAT-R-30.xx — v_target_toggle_pin_index_3_hold | v_target_cycle_all_fwd | v_target_cycle_hostile_fwd</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -10021,7 +10021,7 @@
         <action id="7890676a-f98a-47f4-93b6-0c46b929ba82" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-R-30 — v_target_cycle_all_reset | v_target_cycle_hostile_reset</value>
+                <value>4WAY-HAT-R-30.xx — v_target_cycle_all_reset | v_target_cycle_hostile_reset</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -10119,7 +10119,7 @@
         <action id="f3a227cf-7cda-4f6a-bf8e-a09b062d4d88" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-R-40 — v_engineering_assignment_weapons_increase | v_engineering_assignment_weapons_max</value>
+                <value>4WAY-HAT-R-40.xx — v_engineering_assignment_weapons_increase | v_engineering_assignment_weapons_max</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -10133,7 +10133,7 @@
         <action id="e2574700-4cb1-4552-a22f-ae06ad392721" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-R-40 — v_engineering_assignment_shields_increase | v_engineering_assignment_shields_max</value>
+                <value>4WAY-HAT-R-40.xx — v_engineering_assignment_shields_increase | v_engineering_assignment_shields_max</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -10147,7 +10147,7 @@
         <action id="52a04b0b-e0e5-4474-9416-6a05b728d4ca" type="description">
             <property type="string">
                 <name>description</name>
-                <value>4WAY-HAT-R-40 — v_engineering_assignment_engine_increase | v_engineering_assignment_engine_max</value>
+                <value>4WAY-HAT-R-40.xx — v_engineering_assignment_engine_increase | v_engineering_assignment_engine_max</value>
             </property>
             <property type="string">
                 <name>action-label</name>
