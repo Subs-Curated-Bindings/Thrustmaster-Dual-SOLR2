@@ -1080,6 +1080,10 @@
                     <axis-button-direction>anywhere</axis-button-direction>
                 </virtual-button>
             </action-configuration>
+            <action-configuration>
+                <root-action>67aeb237-b9d5-4035-bc79-6767c6e5151e</root-action>
+                <behavior>axis</behavior>
+            </action-configuration>
         </input>
         <input>
             <device-id>6686f980-1082-11f0-8008-444553540000</device-id>
@@ -1103,6 +1107,10 @@
                     <upper-limit>1.0</upper-limit>
                     <axis-button-direction>anywhere</axis-button-direction>
                 </virtual-button>
+            </action-configuration>
+            <action-configuration>
+                <root-action>05ea8ffd-cd1b-422a-91bf-d06f27773ce2</root-action>
+                <behavior>axis</behavior>
             </action-configuration>
         </input>
         <input>
@@ -2531,7 +2539,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>.left</value>
+                <value>L-ANALOG.left</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -2557,7 +2565,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>.right</value>
+                <value>L-ANALOG.right</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -2583,7 +2591,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>.up</value>
+                <value>L-ANALOG.up</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -2609,7 +2617,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>.down</value>
+                <value>L-ANALOG.down</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5419,7 +5427,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-X-Rotation</value>
+                <value>R-ANALOG.left</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5445,7 +5453,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-X-Rotation</value>
+                <value>R-ANALOG.right</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5471,7 +5479,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-Y-Rotation</value>
+                <value>R-ANALOG.up</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5497,7 +5505,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-Y-Rotation</value>
+                <value>R-ANALOG.down</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11779,11 +11787,12 @@
         </action>
         <action id="7988342f-b735-410a-a2ab-6d2b6b897e7b" type="root">
             <actions>
+                <action-id>1e877ac2-723e-4013-a4fe-cb48693a2db5</action-id>
                 <action-id>53311a32-f3d0-46b0-9cf8-f0ba475022c7</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Hat To Buttons</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11882,7 +11891,7 @@
         <action id="55115bc6-685a-4567-8eb0-d49e78d65725" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Hat To Buttons</value>
+                <value>If your stick reports the 30-degree hat as a POV hat instead of four buttons, this converts it to button presses so the hat directions still work - nothing for you to set up.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -11896,7 +11905,7 @@
         <action id="82cc7953-d8c7-41bd-bfc0-4cd87dc523dc" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Hat to Buttons so users dont need to mess with settings</value>
+                <value>If your stick reports the 30-degree hat as a POV hat instead of four buttons, this converts it to button presses so the hat directions still work - nothing for you to set up.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -11968,7 +11977,7 @@
         <action id="0f4663e3-7c0e-4503-a5cc-e5da098d665b" type="description">
             <property type="string">
                 <name>description</name>
-                <value>L-ANALOG</value>
+                <value>In Modifier mode the left mini-stick acts as four buttons - push it to toggle power to your weapons, shields, thrusters, and overall systems.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -11982,7 +11991,7 @@
         <action id="9f1945d0-4095-4b0e-85a8-d214295e7d9c" type="description">
             <property type="string">
                 <name>description</name>
-                <value>L-ANALOG</value>
+                <value>In Modifier mode the left mini-stick acts as four buttons - push it to toggle power to your weapons, shields, thrusters, and overall systems.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -12055,7 +12064,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Axis to Buttons</value>
+                <value>Mini-stick - Power</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -12068,7 +12077,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Axis To Buttons</value>
+                <value>Mini-stick - Power</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -12275,6 +12284,74 @@
             <property type="string">
                 <name>description</name>
                 <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="67aeb237-b9d5-4035-bc79-6767c6e5151e" type="root">
+            <actions>
+                <action-id>f2487279-3550-4674-bad3-09dd33a5d970</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Mini-stick - Targeting</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="f2487279-3550-4674-bad3-09dd33a5d970" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>In Modifier mode the right mini-stick acts as four buttons - push it to pin targets and raise individual shield faces (left, right, front, back).</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="05ea8ffd-cd1b-422a-91bf-d06f27773ce2" type="root">
+            <actions>
+                <action-id>2d9dbd0a-7a04-4d5b-9754-8334cef4b791</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Mini-stick - Targeting</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="2d9dbd0a-7a04-4d5b-9754-8334cef4b791" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>In Modifier mode the right mini-stick acts as four buttons - push it to pin targets and raise individual shield faces (left, right, front, back).</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="1e877ac2-723e-4013-a4fe-cb48693a2db5" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>If your stick reports the 30-degree hat as a POV hat instead of four buttons, this converts it to button presses so the hat directions still work - nothing for you to set up.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
