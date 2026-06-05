@@ -8547,7 +8547,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>hold</value>
+                <value>.hold</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8567,7 +8567,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>Change Mode</value>
+                <value>None</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
