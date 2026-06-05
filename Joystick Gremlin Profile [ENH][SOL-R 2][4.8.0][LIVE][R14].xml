@@ -4761,7 +4761,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>L-KNOB</value>
+                <value>None</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4787,7 +4787,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>.20</value>
+                <value>L-KNOB.20</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4807,7 +4807,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>L-KNOB</value>
+                <value>None</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4833,7 +4833,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>.21</value>
+                <value>L-KNOB.21</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4879,7 +4879,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>L-KNOB</value>
+                <value>None</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4905,7 +4905,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>.23</value>
+                <value>L-KNOB.23</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
