@@ -4733,7 +4733,7 @@
             </macro-action>
             <property type="string">
                 <name>action-label</name>
-                <value>.hold "Light Amp Toggle | Miscellaneous" Clean 100ms tap on light-amp vJoy button. Activation-mode must stay "release" (not "both").</value>
+                <value>.hold</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8835,7 +8835,7 @@
         <action id="a82212a7-7506-4136-83c6-961718cc2c0e" type="description">
             <property type="string">
                 <name>description</name>
-                <value>LR-BTNS — v_salvage_reset_gimbal | v_salvage_toggle_gimbal_mode | v_lights</value>
+                <value>Tap: ship lights/flashlight. Hold 0.5s: light amp toggle (via macro -- SC needs tap-shape).</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -11590,7 +11590,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>LR-BTN.19 Tap: ship lights/flashlight. Hold 0.5s: light amp toggle (via macro -- SC needs tap-shape).</value>
+                <value>LR-BTN.19</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
