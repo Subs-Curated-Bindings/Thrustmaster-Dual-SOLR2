@@ -3225,7 +3225,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>MAIN-TRIGGER.stage1</value>
+                <value>L-MAIN-TRIGGER.stage1</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
