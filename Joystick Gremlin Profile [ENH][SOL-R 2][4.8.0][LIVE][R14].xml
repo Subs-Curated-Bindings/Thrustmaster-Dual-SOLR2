@@ -4665,7 +4665,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>LR-BTN.19.tap</value>
+                <value>.tap</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4733,7 +4733,7 @@
             </macro-action>
             <property type="string">
                 <name>action-label</name>
-                <value>LR-BTN.19.hold "Light Amp Toggle | Miscellaneous" Clean 100ms tap on light-amp vJoy button. Activation-mode must stay "release" (not "both").</value>
+                <value>.hold "Light Amp Toggle | Miscellaneous" Clean 100ms tap on light-amp vJoy button. Activation-mode must stay "release" (not "both").</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8541,7 +8541,7 @@
         <action id="347e6958-3649-4452-b59c-0a5e9137e410" type="description">
             <property type="string">
                 <name>description</name>
-                <value></value>
+                <value>None</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9507,7 +9507,7 @@
         <action id="0f97456c-5590-4e35-8f95-a942e33e538b" type="description">
             <property type="string">
                 <name>description</name>
-                <value></value>
+                <value>None</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9521,7 +9521,7 @@
         <action id="d1023537-fd0c-4bcc-b0b1-5c19c62be58e" type="description">
             <property type="string">
                 <name>description</name>
-                <value></value>
+                <value>None</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -11590,7 +11590,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Tap: ship lights/flashlight. Hold 0.5s: light amp toggle (via macro -- SC needs tap-shape).</value>
+                <value>LR-BTN.19 Tap: ship lights/flashlight. Hold 0.5s: light amp toggle (via macro -- SC needs tap-shape).</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
