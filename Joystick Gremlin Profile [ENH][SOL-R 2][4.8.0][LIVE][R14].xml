@@ -24,6 +24,10 @@
                     <axis-button-direction>anywhere</axis-button-direction>
                 </virtual-button>
             </action-configuration>
+            <action-configuration>
+                <root-action>c7c94eab-c70a-40f3-8e08-eb2e4116a6f8</root-action>
+                <behavior>axis</behavior>
+            </action-configuration>
         </input>
         <input>
             <device-id>141b1470-1081-11f0-8006-444553540000</device-id>
@@ -47,6 +51,10 @@
                     <upper-limit>1.0</upper-limit>
                     <axis-button-direction>anywhere</axis-button-direction>
                 </virtual-button>
+            </action-configuration>
+            <action-configuration>
+                <root-action>1635596e-bf28-4441-91e8-a91e9bd7aed4</root-action>
+                <behavior>axis</behavior>
             </action-configuration>
         </input>
         <input>
@@ -1058,7 +1066,7 @@
                 <root-action>1fd3d027-ed41-4234-84ae-f8a12ed998e5</root-action>
                 <behavior>button</behavior>
                 <virtual-button>
-                    <lower-limit>-0.95</lower-limit>
+                    <lower-limit>-1.0</lower-limit>
                     <upper-limit>-1.0</upper-limit>
                     <axis-button-direction>anywhere</axis-button-direction>
                 </virtual-button>
@@ -4141,7 +4149,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-Slider-1 "Spare Axis (Unbound) | Unbound"</value>
+                <value>L-Slider "Spare Axis (Unbound) | Unbound"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4171,7 +4179,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-Slider-2 "Spare Axis (Unbound) | Unbound"</value>
+                <value>L-Dail "Spare Axis (Unbound) | Unbound"</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4753,7 +4761,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>"NAV Mode | Flight Control" Cycle into Nav mode.</value>
+                <value>L-KNOB</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4779,7 +4787,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-KNOB.20</value>
+                <value>.20</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4799,7 +4807,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>L-KNOB.21 "SCM Mode | Flight Control" Cycle re-affirms SCM mode (no-op). Paired vJoy mapping is the real action.</value>
+                <value>L-KNOB</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4825,7 +4833,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-KNOB.21</value>
+                <value>.21</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4871,7 +4879,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>L-KNOB.23 "Toggle M/S | Flight Control" Cycle into Auxiliary mode.</value>
+                <value>L-KNOB</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4897,7 +4905,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-KNOB.23</value>
+                <value>.23</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8849,7 +8857,7 @@
         <action id="a3825db1-b002-40b8-a852-b7b5f006dce1" type="description">
             <property type="string">
                 <name>description</name>
-                <value>L-KNOB — NAV Mode (change-mode)</value>
+                <value>"NAV Mode | Flight Control" Cycle into NAV mode.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8863,7 +8871,7 @@
         <action id="1f8bf350-c902-4fac-8627-4cd310d6409b" type="description">
             <property type="string">
                 <name>description</name>
-                <value>L-KNOB — SCM Mode (change-mode)</value>
+                <value>"SCM Mode | Flight Control" Cycle into SCM mode.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8877,7 +8885,7 @@
         <action id="78b1f086-ddc5-4694-9c14-687222c444ef" type="description">
             <property type="string">
                 <name>description</name>
-                <value>L-KNOB — SCM M/S Mode (change-mode)</value>
+                <value>Buffer bind to swap out of Aux as you go toward SCM. (Not designed to stay in this position. JG won't cycle to AUX mode)</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8891,7 +8899,7 @@
         <action id="f0bc4a7f-f2f1-42fd-815c-3973e0d15221" type="description">
             <property type="string">
                 <name>description</name>
-                <value>L-KNOB — Toggle Auxilliary (change-mode)</value>
+                <value>"Set Aux Mode | Flight Control" Set Auxiliary Mode Mining Salvage</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -10552,12 +10560,11 @@
         </action>
         <action id="bfc88ace-a0ce-4d0c-a2a2-ea1b7967f924" type="root">
             <actions>
-                <action-id>2a3756ae-0f54-4c72-81a1-2df5a5aba07e</action-id>
                 <action-id>397f8c05-866f-4fe3-8392-9de8dbf9afbe</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>L-ANALOG</value>
+                <value>Root</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10579,12 +10586,11 @@
         </action>
         <action id="d003072b-a6ee-43b4-a82c-2d58a86a7793" type="root">
             <actions>
-                <action-id>0d1dcf31-bcc7-42cf-a5d4-386127c9e2e3</action-id>
                 <action-id>7058a11d-4c54-41d9-abb6-3c64335c00ac</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>L-ANALOG</value>
+                <value>Root</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10991,7 +10997,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Tempo (Tap/Hold) Docking Fix</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11223,12 +11229,11 @@
         <action id="e0f8dffd-024c-42cd-84e2-def75ec5f07e" type="root">
             <actions>
                 <action-id>37baef66-f0fd-4664-88b8-c6678006c41c</action-id>
-                <action-id>347e6958-3649-4452-b59c-0a5e9137e410</action-id>
                 <action-id>5df9c7a0-70aa-4150-bede-8a02b228c1f4</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11242,7 +11247,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11252,12 +11257,11 @@
         <action id="c04793e0-49a7-4e80-822e-1a3567ce818c" type="root">
             <actions>
                 <action-id>41357446-c665-4b4d-8c94-e6971bb4ff63</action-id>
-                <action-id>c9b0fcf4-7231-4ec9-b4fb-0bc8e0b694e5</action-id>
                 <action-id>97f45469-f9b8-4e35-a615-dc47a91fb7ba</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11267,12 +11271,11 @@
         <action id="dbd38ebc-6eeb-4b87-a126-e557efffdb49" type="root">
             <actions>
                 <action-id>460a282b-784b-4638-83bf-308211e3b9bd</action-id>
-                <action-id>0ff4340d-26a4-45ba-9496-abb5e8b5029a</action-id>
                 <action-id>b47aa0fc-0bb8-448d-bdfd-497b089408c0</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11286,7 +11289,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11300,7 +11303,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11314,7 +11317,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11601,7 +11604,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Cycle Mode NAV</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11616,7 +11619,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Cycle Mode SCM</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11630,7 +11633,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>READ THIS: Buffer Toggle Auxiliary (Mining/Salvage)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11645,7 +11648,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Cycle Mode Set Auxliary (Mining/Salvage)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11694,12 +11697,12 @@
         </action>
         <action id="a28b93ee-7329-4cb4-bede-d7eb1ca4eb5f" type="root">
             <actions>
-                <action-id>bfa4622f-caee-423c-be03-9938d4560e8c</action-id>
+                <action-id>40d76149-8532-4a72-826c-238ebd3fb2e3</action-id>
                 <action-id>e6909903-dee7-4069-ba56-f5e0cfb487ef</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Modifier</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13204,7 +13207,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Axis to Mouse Axis (3rd Person Freelook)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13291,7 +13294,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13478,7 +13481,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Tempo (Tap/Hold) L.A.M.P.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13492,7 +13495,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Tempo (Tap/Hold) MM</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13506,7 +13509,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Hat To Buttons</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13591,7 +13594,133 @@
         <action id="82cc7953-d8c7-41bd-bfc0-4cd87dc523dc" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Hat to Buttons</value>
+                <value>Hat to Buttons so users dont need to mess with settings</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="c7c94eab-c70a-40f3-8e08-eb2e4116a6f8" type="root">
+            <actions>
+                <action-id>9f1945d0-4095-4b0e-85a8-d214295e7d9c</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Axis to Buttons</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="ed2bffba-599b-43a2-9a55-ca4d4c3eb5c7" type="map-to-vjoy">
+            <property type="int">
+                <name>vjoy-device-id</name>
+                <value>1</value>
+            </property>
+            <property type="int">
+                <name>vjoy-input-id</name>
+                <value>1</value>
+            </property>
+            <property type="input_type">
+                <name>vjoy-input-type</name>
+                <value>axis</value>
+            </property>
+            <property type="axis_mode">
+                <name>axis-mode</name>
+                <value>absolute</value>
+            </property>
+            <property type="float">
+                <name>axis-scaling</name>
+                <value>1.0</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Map to vJoy</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>both</value>
+            </property>
+        </action>
+        <action id="5facef16-2ce3-4842-9cd5-8e0fea93a637" type="description">
+            <property type="string">
+                <name>description</name>
+                <value/>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="69fd34e7-4ce0-4632-a4db-cb24407ce3ae" type="description">
+            <property type="string">
+                <name>description</name>
+                <value/>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="1635596e-bf28-4441-91e8-a91e9bd7aed4" type="root">
+            <actions>
+                <action-id>0f4663e3-7c0e-4503-a5cc-e5da098d665b</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Axis To Buttons</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="0f4663e3-7c0e-4503-a5cc-e5da098d665b" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>L-ANALOG</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="9f1945d0-4095-4b0e-85a8-d214295e7d9c" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>L-ANALOG</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="40d76149-8532-4a72-826c-238ebd3fb2e3" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>Modifier Layer Activation</value>
             </property>
             <property type="string">
                 <name>action-label</name>
