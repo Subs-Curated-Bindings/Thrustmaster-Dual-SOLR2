@@ -10923,7 +10923,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10937,7 +10937,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11538,7 +11538,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Axis to Mouse Axis (3rd Person Freelook)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11552,7 +11552,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11567,7 +11567,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11582,7 +11582,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11596,7 +11596,7 @@
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Root</value>
+                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
