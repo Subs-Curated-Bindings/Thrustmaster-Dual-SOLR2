@@ -3913,7 +3913,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>L-SCROLL.press "Master Mode Cycle | Flight Control" Cycle into SCM mode.</value>
+                <value>L-SCROLL.press Cycle into SCM mode.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3969,7 +3969,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-X-Axis "Lateral Strafe (Left/Right) | Flight Control"</value>
+                <value>L-X-Axis</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3999,7 +3999,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-Y-Axis "Longitudinal Strafe (Fwd/Back) | Flight Control"</value>
+                <value>L-Y-Axis</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4059,7 +4059,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-X-Rotation "On-Foot Move (Left/Right) | Miscellaneous"</value>
+                <value>L-X-Rotation</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4089,7 +4089,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-Y-Rotation "On-Foot Move (Fwd/Back) | Miscellaneous"</value>
+                <value>L-Y-Rotation</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4119,7 +4119,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-Z-Rotation "Vertical Strafe (Up/Down) | Flight Control"</value>
+                <value>L-Z-Rotation</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4149,7 +4149,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-Slider "Spare Axis (Unbound) | Unbound"</value>
+                <value>L-Slider</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4179,7 +4179,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-Dail "Spare Axis (Unbound) | Unbound"</value>
+                <value>L-Dail</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6671,7 +6671,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-X-Axis "Yaw | Flight Control"</value>
+                <value>R-X-Axis</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6701,7 +6701,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-Y-Axis "Pitch | Flight Control"</value>
+                <value>R-Y-Axis</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6791,7 +6791,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-Z-Rotation "Roll | Flight Control"</value>
+                <value>R-Z-Rotation</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6821,7 +6821,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-Slider-1 "Spare Axis (Unbound) | Unbound"</value>
+                <value>R-Slider-1</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6851,7 +6851,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-Slider-2 "Spare Axis (Unbound) | Unbound"</value>
+                <value>R-Slider-2</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8025,7 +8025,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-Z-Axis "Spare Axis (Unbound) | Unbound"</value>
+                <value>R-Z-Axis</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8336,216 +8336,6 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="4d160d02-4a9b-4bf4-aeae-d31fed8c4f15" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LL-SWITCH [Modifier] — turret_toggle_mouse_mode</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="c6fdb940-2e34-4555-a94c-1e3e752c5d59" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>PINKY-L [Modifier] — Modifier Button (change-mode)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="2f92f690-1703-4e9b-866b-aa736730fa73" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-30.press [Modifier] — v_dock_toggle_view | v_weapon_bombing_hud_range_reset</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="05091d79-f63b-40dd-beaa-e75bfa16c4d2" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-30.left [Modifier] — headtrack_recenter_device</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="af161b4d-4067-476e-93ac-8a11fb3e03fb" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-30.up [Modifier] — v_inc_scan_focus_level | v_weapon_bombing_hud_range_increase</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="d7c29fa9-d5b6-4a21-bc51-deba0a91cc4b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-30.right [Modifier] — v_weapon_bombing_hud_range_decrease</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="76af4b69-f7f1-4d34-a985-bd4dd5be9f08" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-30.down [Modifier] — v_dec_scan_focus_level</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="758aa29b-84b0-4e25-a2b4-58800b0d967a" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>BTN.35 [Modifier] — v_atc_loading_area_request</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="9c951cf0-621c-4c87-ab63-0f2fe0c9939e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>L-SCROLL.up [Modifier] — v_ifcs_speed_limiter_increment</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="8196587c-929d-4cd9-b53b-8f88439698bb" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>L-SCROLL.down [Modifier] — v_ifcs_speed_limiter_decrement</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="fb793c39-4eb5-44c7-9cc8-32093acf629e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-40.up [Modifier] — v_accel_range_up</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="ff2d9ceb-0982-44aa-920e-fc528326c575" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-40.right [Modifier] — v_strafe_trim_reset_short</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="4f763315-a278-44c2-8463-451fcb6705cc" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-40.down [Modifier] — v_accel_range_down</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="02494064-3c74-49d3-b509-5432c4c8b343" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>PINKY-L — Modifier Button (change-mode)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="83cee544-3782-44c7-b545-82bc541e0fd5" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>L-SCROLL.press [Nav Mode] — v_master_mode_cycle_long | v_toggle_mining_laser_type | v_master_mode_set_scm</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="347e6958-3649-4452-b59c-0a5e9137e410" type="description">
             <property type="string">
                 <name>description</name>
@@ -8560,276 +8350,10 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="70da1bad-7933-4f21-b39a-483f46b916ad" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>L-THROTTLE — Mining Throttle / Salvage Beam Spacing / Turret Limiter (vjoy 1 z)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="c9b0fcf4-7231-4ec9-b4fb-0bc8e0b694e5" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>ANALOG-HAT-L — Analog hat X (vjoy 1 rotx, player movement X in foot mode)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="0ff4340d-26a4-45ba-9496-abb5e8b5029a" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>ANALOG-HAT-L — Analog hat Y (vjoy 1 roty, player movement Y in foot mode)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="15d5f5ce-7370-4b79-abc9-ccc516b8ac8c" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LL-SWITCH — v_retract_landing_system</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="28e2e675-b467-401f-be16-c84ff2b0065a" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LL-SWITCH — v_autoland | v_deploy_landing_system | v_toggle_landing_system</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="4c57a060-28f8-4d12-bad8-99f3b686e8b4" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LL-SWITCH — v_close_all_doors | v_close_all_doors</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="1145a7b6-fcea-42cc-8bf7-20b38f177c4a" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LL-SWITCH — v_open_all_doors | v_toggle_all_doors | v_open_all_doors</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="d9585505-f64a-489d-a3cd-d6266d52d506" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LL-BTNS — v_ifcs_toggle_esp | turret_esp_toggle</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="708009bb-c8be-4c78-a7d1-719699f9d017" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LL-BTNS — turret_gyromode</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="3d56ae15-84ec-47b0-aa73-8353817f2697" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LL-BTNS — v_view_dynamic_zoom_abs_toggle</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="9cdbaf04-30fe-4d0b-a180-a1ba2f1c4ba7" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LL-BTNS — turret_change_position | turret_recenter | v_weapon_staggered_fire_toggle</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="0a9ddb43-b7ef-4d89-8354-a408d03be8b7" type="description">
             <property type="string">
                 <name>description</name>
                 <value/>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="4d8577f3-e613-4fb6-a517-df3d1950cc7a" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>L-ENCODER — Decoy Burst Size Inc / Tractor Distance Inc.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="33501ece-0ba8-484b-9dd0-c643a72b33d0" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>L-ENCODER — v_salvage_toggle_beam_spacing_axis</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="8050814b-fec7-4be8-be2f-df067431f917" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LR-SWITCH — v_unlock_all_doors | v_unlock_all_ports | v_unlock_all_doors</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="80ce5b65-d5a4-4723-93d3-a877114cffa5" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LR-SWITCH — v_lock_all_doors | v_toggle_all_doorlocks | v_lock_all_doors</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="71d7b8cb-f345-4ebd-b684-f19f6f2dfad6" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LR-SWITCH — v_toggle_all_doors | v_unlock_all_ports</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="767b783f-5402-4320-9a85-9e6540f11e1c" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LR-SWITCH — v_lock_all_ports | v_toggle_all_portlocks | v_lock_all_ports</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="b7f97e93-8606-480f-9064-94e9b1a2dac2" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LR-BTNS — v_weapon_gimbals_state_toggle</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="e8c6be17-83ff-4f42-8cfa-05fd84a72671" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>LR-BTNS — v_weapon_pip_toggle_lead_lag</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8857,7 +8381,7 @@
         <action id="a3825db1-b002-40b8-a852-b7b5f006dce1" type="description">
             <property type="string">
                 <name>description</name>
-                <value>"NAV Mode | Flight Control" Cycle into NAV mode.</value>
+                <value>Cycle into NAV mode.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8871,7 +8395,7 @@
         <action id="1f8bf350-c902-4fac-8627-4cd310d6409b" type="description">
             <property type="string">
                 <name>description</name>
-                <value>"SCM Mode | Flight Control" Cycle into SCM mode.</value>
+                <value>Cycle into SCM mode.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8899,609 +8423,7 @@
         <action id="f0bc4a7f-f2f1-42fd-815c-3973e0d15221" type="description">
             <property type="string">
                 <name>description</name>
-                <value>"Set Aux Mode | Flight Control" Set Auxiliary Mode Mining Salvage</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="9aa832a8-5568-4052-a010-738bd5967c9b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>MAIN-TRIG-L — v_afterburner | v_ifcs_toggle_gforce_safety | zoom</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="bf99f79f-0bd7-46fb-96d6-9803d42576b6" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>MAIN-TRIG-L — v_strafe_trim_reset_long</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="4accdc68-57d3-41fb-9d65-a558eb73cbad" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RAPID-TRIG-L — v_space_brake | eva_brake | v_brake</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="38b9133c-947c-4d54-9134-16097d398ed8" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RAPID-TRIG-L — v_invoke_ping | jump</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="bfa4622f-caee-423c-be03-9938d4560e8c" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>PINKY-L — Modifier Button (change-mode)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="e39d0e3a-860c-486d-9ee3-7b719e17365d" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>ANALOG-HAT-L — v_flightready | v_flightready</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="adab69fc-86bc-4f51-8e21-e495620fd733" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-30.press — v_view_freelook_mode | eva_toggle_headlook_mode | v_view_freelook_mode</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="8cb6a26b-b9f4-49d5-9793-e581b45af316" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-30.left — headtrack_camera_enabled | headtrack_enabled</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="4e17f166-ca06-4980-b868-34e8e7d3ee7e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-30.up — v_view_cycle_fwd | thirdperson | v_view_cycle_fwd</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="b2799f2f-2e6a-4481-ad84-6c56cc703d14" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-30.right — v_view_dynamic_zoom_abs_toggle | v_weapon_launch_missile_cinematic_hold</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="f38433b9-97c1-4246-a9c3-1e018b139809" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-30.down — v_view_look_behind</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="430b1342-ff9c-40a2-b6ce-326dc8f1f421" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>BTN.35 — v_toggle_jump_request | v_invoke_docking | v_toggle_docking_mode</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="d54cd3bb-aa7a-48dc-a3a7-861e747aa3f5" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>L-SCROLL.press.tap — v_master_mode_cycle_long | v_toggle_mining_laser_type | v_master_mode_set_nav</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="11fff614-83e4-43ca-96f9-eb8b419e68d5" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>L-SCROLL.up — v_operator_mode_cycle_forward</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="fbecf3d0-8891-43fb-ab8d-487b0889def2" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>L-SCROLL.down — v_operator_mode_cycle_back</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="5818df0c-cc18-48b5-bbff-cc0a64bc748f" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>BTN.39 — v_ads_stable_max_zoom_hold | v_ads_toggle</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="c10aa9bd-58a2-41be-be1f-b42f7ce2d490" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-40.press — v_atc_request</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="6fd82aa7-2512-460e-b007-8b8d9db3715f" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-40.left — v_ifcs_throttle_swap_mode</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="b85bf54a-057c-48bd-bbbe-e7b51553faac" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-40.up — v_ifcs_speed_limiter_up | turret_limiter_rel_increase</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="2f0c515e-25d9-4977-b654-646d54da3b7b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-40.right — v_strafe_trim_set_100_long | v_strafe_trim_set_short</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="d8ffa0da-1505-4e2e-af79-3bd4ca61d872" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-L-40.down — v_ifcs_speed_limiter_down | turret_limiter_rel_decrease</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="3bb83c1c-2ed1-4e32-acf1-d942ff99efb6" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>ANALOG-HAT-R [Modifier] — Analog hat X (vjoy 2 rotx, mouse-driven Freelook X)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="6be8c431-835d-40fc-8850-3af4c330980c" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>ANALOG-HAT-R [Modifier] — Analog hat Y (vjoy 2 roty, mouse-driven Freelook Y)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="94eb302a-0e85-4f3d-91fb-12c8bc24e48a" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RL-BTNS [Modifier] — v_self_destruct</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="00ad92da-83ed-4289-ac76-c2cd53096f8b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RL-BTNS [Modifier] — v_eject</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="9fbbcb72-0a48-4d06-b8dc-e6a70bf8b64b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RL-BTNS [Modifier] — v_jettison_volatile_cargo</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="bd3166fb-43ab-4669-8937-cc6ef34ce2a1" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RR-BTNS [Modifier] — v_mfd_soft_select_cast_right_short</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="54ee2789-ea56-4aab-9c12-913ea8114f65" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RR-BTNS [Modifier] — v_mfd_soft_select_cast_left_short</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="f297fc46-f17a-42c5-90f0-ac17be28b228" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>PINKY-R [Modifier] — Push-to-Talk (FOIP)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="fc86cb15-19b0-47f4-b214-789f3506f926" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>ANALOG-HAT-R [Modifier] — Press-in: Freelook</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="2f49bab4-f629-4c00-aed2-6cf10d673006" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-30.press [Modifier] — v_target_remove_all_pins</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="6719fdc2-d473-420a-aed6-516d0e542416" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-30.left [Modifier] — v_target_cycle_friendly_back | v_target_cycle_subitem_back</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="00b7f0c4-a405-4d80-a175-6ef3d975576b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-30.up [Modifier] — v_target_cycle_attacker_fwd | v_target_cycle_pinned_fwd</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="1d1afc1e-671e-433d-b994-5c2330ecd909" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-30.right [Modifier] — v_target_cycle_friendly_fwd | v_target_cycle_subitem_fwd</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="e4e12cda-2bb6-4cf2-849f-5f211031038d" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-30.down [Modifier] — v_target_cycle_friendly_reset | v_target_cycle_subitem_reset</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="a3e14b22-604b-4b11-a356-2ef35c1ec07e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>BTN.35 [Modifier] — v_salvage_focus_left</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="30c52353-4587-4e10-8003-cd1be79b4f6e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>R-SCROLL.press [Modifier] — v_salvage_cycle_modifiers_focused | v_weapon_preset_emp | v_weapon_preset_qid</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="869cc5be-fa83-4ac2-9109-e4c97cf9918e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>R-SCROLL.up [Modifier] — tractor_beam_vehicle_increase_distance | v_weapon_preset_next_overflow | v_weapon_cycle_missile_back</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="c28db170-16b6-4115-8024-2e92ef89a610" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>R-SCROLL.down [Modifier] — tractor_beam_vehicle_decrease_distance | v_weapon_preset_prev_overflow | v_weapon_cycle_missile_fwd</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="48ad6f70-4375-4a26-a76e-6dca5c4d6e97" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>BTN.39 [Modifier] — v_salvage_focus_right</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="b5381b14-d7ee-460a-a16d-71fa969a9ff2" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-40.left [Modifier] — v_engineering_assignment_weapons_decrease | v_engineering_assignment_weapons_min</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="35dc0c0b-3802-4ec3-a753-bb0af6001166" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-40.right [Modifier] — v_engineering_assignment_shields_decrease | v_engineering_assignment_shields_min</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="e411ef2e-cb41-470d-9527-6b015a012dc9" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-40.down [Modifier] — v_engineering_assignment_engine_decrease | v_engineering_assignment_engine_min</value>
+                <value>Set Auxiliary Mode Mining Salvage</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9544,496 +8466,6 @@
             <property type="string">
                 <name>description</name>
                 <value>Flat plateau curve to suppress potential idle-axis drift on the mouse Y free-look axis.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="3518c667-1185-4d57-acc1-0cadb3cb0780" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>ANALOG-HAT-R — Analog hat Y (vjoy 2 roty, mouse-driven Freelook Y)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="9f03d6bc-d79d-4af2-8f39-010d8c7569b5" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RL-SWITCH — v_enter_remote_turret_1 | v_transform_retract</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="6d3ad9ff-b2e1-4809-aa2e-677190c704ae" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RL-SWITCH — v_enter_remote_turret_2 | v_transform_cycle | v_transform_deploy</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="0fdfa4aa-76ec-46a0-b8c9-532c5c891210" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RL-SWITCH — v_enter_remote_turret_3</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="8d2d6518-1bbb-450b-a06b-62826ba93031" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RL-SWITCH — v_emergency_exit | turret_remote_exit | pl_exit</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="0a987dcc-c848-49cf-af53-f0f794ab7b8c" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RL-BTNS — v_target_hail | toggle_chat</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="eb09d68b-1ea8-4b05-a199-b08a68bce34b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RL-BTNS — v_flight_advanced_hud_toggle</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="a188624b-0b3e-48b0-83b5-857d95bd110d" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RL-BTNS — notification_accept | notification_decline</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="1b545564-3fed-4c2b-a3b7-ea3961f5b499" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RR-SWITCH — v_mining_use_consumable2</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="71e9a2a7-e1be-484c-ab0b-ae753b65be0a" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RR-SWITCH — v_weapon_pip_prec_line_toggle</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="49f616a0-16e0-4a09-9e24-59c48ab1c05c" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RR-SWITCH — v_mining_use_consumable1</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="1d4f8c85-72c4-46c8-af54-78a09ae846ba" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RR-SWITCH — v_mining_use_consumable3</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="c7b8a1ea-7bf7-4e54-8b35-a5060ce0578e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RR-BTNS — v_mfd_movement_down_long</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="a6c491bf-ed55-447c-9820-3d659471351c" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RR-BTNS — v_mfd_movement_up_long</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="aa5f94b1-2cce-4746-8c2b-6e1800c41b6b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RR-BTNS — v_mfd_interact_cycle_forwards_short | v_mfd_movement_right_long</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="fe78625e-401b-45cb-8af7-aeb9845f0218" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RR-BTNS — v_mfd_interact_cycle_backwards_short | v_mfd_movement_left_long</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="6128c99b-77f1-47dc-bb65-a90f3aec30ec" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>MAIN-TRIG-R — v_toggle_qdrive_engagement | v_scanning_trigger_scan | v_toggle_mining_laser_fire</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="d928c858-c9b9-4f45-9d5d-3ce7271c637a" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>MAIN-TRIG-R — v_weapon_preset_fire_guns0</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="1c52d832-13b6-4af7-bde0-0a564536082e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RAPID-TRIG-R — v_weapon_countermeasure_noise_launch</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="f981a03e-7fd0-476a-8e89-cbe1bea98aed" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>RAPID-TRIG-R — v_weapon_countermeasure_decoy_launch</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="3d8695d9-aa2c-4db6-b82f-1af70cdcb147" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>PINKY-R — Push-to-Talk (FOIP)</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="2ab2e8d0-b10a-4eba-8105-8bede835ac83" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-30.press — v_target_lock_selected | v_target_unlock | v_target_unpin_selected_hold</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="edac8c30-92e7-499a-9c18-c09987128a23" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-30.left — v_target_toggle_pin_index_1_hold | v_target_cycle_all_back | v_target_cycle_hostile_back</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="89883ca1-db5b-4e6f-a903-a9258489cad2" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-30.up — v_target_pin_selected_hold | v_target_toggle_pin_index_2_hold | v_target_cycle_in_view_fwd</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="2cd63177-6ad1-491d-83a4-89aa48dd2111" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-30.right — v_target_toggle_pin_index_3_hold | v_target_cycle_all_fwd | v_target_cycle_hostile_fwd</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="7890676a-f98a-47f4-93b6-0c46b929ba82" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-30.down — v_target_cycle_all_reset | v_target_cycle_hostile_reset</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="95852e66-a80a-4b6f-b1d6-6d1e1efb31d5" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>BTN.35 — v_salvage_cycle_modifiers_left | v_horn</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="6effbb4b-4a9c-4d1e-8432-6c625a29ae81" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>R-SCROLL.press — v_salvage_focus_fracture | v_weapon_bombing_toggle_desired_impact_point | v_weapon_reset_max_missiles</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="bff446dd-5129-4f87-9900-d1fd886bb36b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>R-SCROLL.up — v_increase_mining_throttle | v_salvage_focus_all_heads | v_weapon_increase_max_missiles</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="1e41e89c-b49b-420d-aeae-f354c38c04d7" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>R-SCROLL.down — v_decrease_mining_throttle | v_salvage_focus_disintegrate | v_weapon_decrease_max_missiles</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="84f7dbaf-e30b-4c46-8f9f-067a082f7420" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>BTN.39 — v_salvage_cycle_modifiers_right</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="f1d41cc3-ad34-4b63-bd9e-074d589f5b4e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-40.press — v_engineering_assignment_reset</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="f3a227cf-7cda-4f6a-bf8e-a09b062d4d88" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-40.left — v_engineering_assignment_weapons_increase | v_engineering_assignment_weapons_max</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="e2574700-4cb1-4552-a22f-ae06ad392721" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-40.right — v_engineering_assignment_shields_increase | v_engineering_assignment_shields_max</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="52a04b0b-e0e5-4474-9416-6a05b728d4ca" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>4WAY-HAT-R-40.down — v_engineering_assignment_engine_increase | v_engineering_assignment_engine_max</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -10651,7 +9083,6 @@
         </action>
         <action id="d8e94dc5-a94d-4b9a-9cab-0ab39484a4d7" type="root">
             <actions>
-                <action-id>4d160d02-4a9b-4bf4-aeae-d31fed8c4f15</action-id>
                 <action-id>abb781ac-c626-406d-9c32-4c362ad93609</action-id>
             </actions>
             <property type="string">
@@ -10964,7 +9395,6 @@
         </action>
         <action id="c4d9fbf2-1f82-4a2f-b433-c06b952a2f92" type="root">
             <actions>
-                <action-id>c6fdb940-2e34-4555-a94c-1e3e752c5d59</action-id>
                 <action-id>34cbdc14-347d-4671-9fe5-03fd7c25ec0c</action-id>
             </actions>
             <property type="string">
@@ -10991,7 +9421,6 @@
         </action>
         <action id="8b379eb6-ede5-4598-afbf-d4758391bc21" type="root">
             <actions>
-                <action-id>2f92f690-1703-4e9b-866b-aa736730fa73</action-id>
                 <action-id>026b5b0b-92ee-456b-8908-0656d3c2bd4f</action-id>
                 <action-id>487d7f33-154c-44f8-92cc-631b1648042e</action-id>
             </actions>
@@ -11006,7 +9435,6 @@
         </action>
         <action id="3e4c340a-596f-45f8-85de-2fd42151c2a8" type="root">
             <actions>
-                <action-id>05091d79-f63b-40dd-beaa-e75bfa16c4d2</action-id>
                 <action-id>5f29872e-97c8-4135-acf0-25de29173205</action-id>
             </actions>
             <property type="string">
@@ -11020,7 +9448,6 @@
         </action>
         <action id="573283c9-5115-47ed-b8f8-3bb6a555d998" type="root">
             <actions>
-                <action-id>af161b4d-4067-476e-93ac-8a11fb3e03fb</action-id>
                 <action-id>de321185-1615-4358-b394-a8e2c0d49555</action-id>
             </actions>
             <property type="string">
@@ -11034,7 +9461,6 @@
         </action>
         <action id="fa76350a-2c9d-4f06-aa08-4ec45d4a5a05" type="root">
             <actions>
-                <action-id>d7c29fa9-d5b6-4a21-bc51-deba0a91cc4b</action-id>
                 <action-id>9861e218-9751-486d-a535-82e3d0f6d147</action-id>
             </actions>
             <property type="string">
@@ -11048,7 +9474,6 @@
         </action>
         <action id="89f6a311-0456-4d8d-b951-0ccc31605cfa" type="root">
             <actions>
-                <action-id>76af4b69-f7f1-4d34-a985-bd4dd5be9f08</action-id>
                 <action-id>3637c2a3-1b39-4d3f-86ed-a63aac3a043e</action-id>
             </actions>
             <property type="string">
@@ -11062,7 +9487,6 @@
         </action>
         <action id="3c9ebc2c-02a5-4086-ab65-11bd8f19dcb0" type="root">
             <actions>
-                <action-id>758aa29b-84b0-4e25-a2b4-58800b0d967a</action-id>
                 <action-id>68469b40-1da1-438e-93da-96ab77426133</action-id>
             </actions>
             <property type="string">
@@ -11089,7 +9513,6 @@
         </action>
         <action id="36ee1cc7-574c-4e78-af84-69a61c38edb1" type="root">
             <actions>
-                <action-id>9c951cf0-621c-4c87-ab63-0f2fe0c9939e</action-id>
                 <action-id>33dc552c-2396-44b3-afe1-7c724daf2916</action-id>
             </actions>
             <property type="string">
@@ -11103,7 +9526,6 @@
         </action>
         <action id="eb600db6-0f44-4a95-a2f5-26337cd83db1" type="root">
             <actions>
-                <action-id>8196587c-929d-4cd9-b53b-8f88439698bb</action-id>
                 <action-id>424ab546-1c97-4c76-84e9-639259823b6f</action-id>
             </actions>
             <property type="string">
@@ -11156,7 +9578,6 @@
         </action>
         <action id="a14b6319-fae7-45e1-a737-7d9db9cd3714" type="root">
             <actions>
-                <action-id>fb793c39-4eb5-44c7-9cc8-32093acf629e</action-id>
                 <action-id>b9291319-7eb9-497a-8d36-95122aa20089</action-id>
             </actions>
             <property type="string">
@@ -11170,7 +9591,6 @@
         </action>
         <action id="4130480b-167d-4263-808c-dad6ecb2c2fc" type="root">
             <actions>
-                <action-id>ff2d9ceb-0982-44aa-920e-fc528326c575</action-id>
                 <action-id>43040af7-ae7f-410e-83dc-ff3618ce7c34</action-id>
             </actions>
             <property type="string">
@@ -11184,7 +9604,6 @@
         </action>
         <action id="146c4ce8-1fba-471c-b09f-186901286a09" type="root">
             <actions>
-                <action-id>4f763315-a278-44c2-8463-451fcb6705cc</action-id>
                 <action-id>c297ca48-9d5c-4b64-bc53-b32e22e8e222</action-id>
             </actions>
             <property type="string">
@@ -11198,7 +9617,6 @@
         </action>
         <action id="2c77cfe4-50a2-46d7-833b-9256dad83563" type="root">
             <actions>
-                <action-id>02494064-3c74-49d3-b509-5432c4c8b343</action-id>
                 <action-id>507b0262-635a-433c-9544-21c2bd4964cf</action-id>
             </actions>
             <property type="string">
@@ -11212,7 +9630,6 @@
         </action>
         <action id="36593e2f-7943-4e9f-a58f-32dc89091aaa" type="root">
             <actions>
-                <action-id>83cee544-3782-44c7-b545-82bc541e0fd5</action-id>
                 <action-id>1d6b23a3-bdbc-43a7-ac80-9b67afc8f1cb</action-id>
                 <action-id>31827787-0c9c-47e9-bba5-15fab77aac74</action-id>
                 <action-id>97aa6d5f-a186-429c-b2ca-40e6b55373a9</action-id>
@@ -11339,7 +9756,6 @@
         </action>
         <action id="16c29a08-52a6-4c8c-b318-5cbd3b69ae62" type="root">
             <actions>
-                <action-id>28e2e675-b467-401f-be16-c84ff2b0065a</action-id>
                 <action-id>6dcea93c-c1ef-4b21-9d6f-b7594c087c39</action-id>
             </actions>
             <property type="string">
@@ -11353,7 +9769,6 @@
         </action>
         <action id="40ce71cb-c4dd-4b76-ae73-e28dc71f16c7" type="root">
             <actions>
-                <action-id>4c57a060-28f8-4d12-bad8-99f3b686e8b4</action-id>
                 <action-id>cffea44c-e299-43cb-8530-fedbfc4800cc</action-id>
             </actions>
             <property type="string">
@@ -11367,7 +9782,6 @@
         </action>
         <action id="9cd1ff23-9b42-4ae7-b3f7-d6230b1e4f22" type="root">
             <actions>
-                <action-id>1145a7b6-fcea-42cc-8bf7-20b38f177c4a</action-id>
                 <action-id>52ab5c4c-7f79-4c6f-9635-ecd3e484a72e</action-id>
             </actions>
             <property type="string">
@@ -11394,7 +9808,6 @@
         </action>
         <action id="db9dda2a-0dd0-43a7-903e-494e02381822" type="root">
             <actions>
-                <action-id>708009bb-c8be-4c78-a7d1-719699f9d017</action-id>
                 <action-id>64ada433-6077-44e3-a124-c0a705ed1731</action-id>
             </actions>
             <property type="string">
@@ -11408,7 +9821,6 @@
         </action>
         <action id="1bbbcc4a-1934-4454-9ee4-2dadf907d9e6" type="root">
             <actions>
-                <action-id>3d56ae15-84ec-47b0-aa73-8353817f2697</action-id>
                 <action-id>dd063c28-5a96-4e4a-a750-5d9b673ea6e1</action-id>
             </actions>
             <property type="string">
@@ -11422,7 +9834,6 @@
         </action>
         <action id="92fdffb8-ed86-491b-9d12-089168a1d0a8" type="root">
             <actions>
-                <action-id>9cdbaf04-30fe-4d0b-a180-a1ba2f1c4ba7</action-id>
                 <action-id>a9d34019-eefb-42cf-a4b3-d9d9e562723c</action-id>
             </actions>
             <property type="string">
@@ -11449,7 +9860,6 @@
         </action>
         <action id="c51909cc-21da-4520-be1b-d05d67c1b68f" type="root">
             <actions>
-                <action-id>4d8577f3-e613-4fb6-a517-df3d1950cc7a</action-id>
                 <action-id>7e5986a0-4f55-4fac-9611-f08f9f04fbe5</action-id>
             </actions>
             <property type="string">
@@ -11463,7 +9873,6 @@
         </action>
         <action id="2a8cfbc5-a438-48e8-a72e-07f4161cdb73" type="root">
             <actions>
-                <action-id>33501ece-0ba8-484b-9dd0-c643a72b33d0</action-id>
                 <action-id>732e0521-b395-4ece-8698-3113d5d4425a</action-id>
             </actions>
             <property type="string">
@@ -11477,7 +9886,6 @@
         </action>
         <action id="5025440d-cd39-4532-a867-0000bede002b" type="root">
             <actions>
-                <action-id>8050814b-fec7-4be8-be2f-df067431f917</action-id>
                 <action-id>7193589c-55ba-48f0-9279-a5ad22259cdd</action-id>
             </actions>
             <property type="string">
@@ -11491,7 +9899,6 @@
         </action>
         <action id="03d785cb-c14c-46ee-8c81-c3f8ecb532d5" type="root">
             <actions>
-                <action-id>80ce5b65-d5a4-4723-93d3-a877114cffa5</action-id>
                 <action-id>c0b40973-8d39-4789-8bf1-3d977772fc32</action-id>
             </actions>
             <property type="string">
@@ -11505,7 +9912,6 @@
         </action>
         <action id="e9777e3d-c18b-472a-aeea-00e4bc0145d1" type="root">
             <actions>
-                <action-id>71d7b8cb-f345-4ebd-b684-f19f6f2dfad6</action-id>
                 <action-id>3e8a004b-058d-43e4-9d01-b29af202a860</action-id>
             </actions>
             <property type="string">
@@ -11519,7 +9925,6 @@
         </action>
         <action id="6e3b87cd-cf9e-4240-9097-1ec133d14889" type="root">
             <actions>
-                <action-id>767b783f-5402-4320-9a85-9e6540f11e1c</action-id>
                 <action-id>188d727a-cd7e-4a35-9457-33a081bfe0fa</action-id>
             </actions>
             <property type="string">
@@ -11533,7 +9938,6 @@
         </action>
         <action id="01a2b8f3-3969-489c-944c-36f19c5a02d2" type="root">
             <actions>
-                <action-id>b7f97e93-8606-480f-9064-94e9b1a2dac2</action-id>
                 <action-id>b73f0c10-cff1-46a8-9252-184480f75a2c</action-id>
             </actions>
             <property type="string">
@@ -11547,7 +9951,6 @@
         </action>
         <action id="751bbd16-1945-4ae2-a463-6349f6ed2bb0" type="root">
             <actions>
-                <action-id>e8c6be17-83ff-4f42-8cfa-05fd84a72671</action-id>
                 <action-id>851bd952-7199-4065-9869-eb0efb3c80e4</action-id>
             </actions>
             <property type="string">
@@ -11670,7 +10073,6 @@
         </action>
         <action id="30aad3e6-d077-4d21-8121-54726ddc6e75" type="root">
             <actions>
-                <action-id>bf99f79f-0bd7-46fb-96d6-9803d42576b6</action-id>
                 <action-id>9287a902-aa9d-4d25-aefb-80649ec1bf27</action-id>
             </actions>
             <property type="string">
@@ -11711,7 +10113,6 @@
         </action>
         <action id="1d235d5c-0b60-4f40-ad61-efa8748c7dfc" type="root">
             <actions>
-                <action-id>e39d0e3a-860c-486d-9ee3-7b719e17365d</action-id>
                 <action-id>4461c571-4795-4083-aa12-148042d9c3a9</action-id>
             </actions>
             <property type="string">
@@ -11725,7 +10126,6 @@
         </action>
         <action id="d4634fb8-a642-44b8-af5d-9b0860182d84" type="root">
             <actions>
-                <action-id>adab69fc-86bc-4f51-8e21-e495620fd733</action-id>
                 <action-id>11e6513e-954e-423b-9bfe-e225a365c0b3</action-id>
             </actions>
             <property type="string">
@@ -11739,7 +10139,6 @@
         </action>
         <action id="52152cc5-9f3f-4267-9a01-afe6baef56c4" type="root">
             <actions>
-                <action-id>8cb6a26b-b9f4-49d5-9793-e581b45af316</action-id>
                 <action-id>03f77604-8890-471b-8e67-71dade165fe0</action-id>
             </actions>
             <property type="string">
@@ -11753,7 +10152,6 @@
         </action>
         <action id="625d0b25-d5a0-44bf-b262-7288d11f83fb" type="root">
             <actions>
-                <action-id>4e17f166-ca06-4980-b868-34e8e7d3ee7e</action-id>
                 <action-id>e102ffb4-bb5d-47a7-ab6f-2cefe72e262e</action-id>
             </actions>
             <property type="string">
@@ -11767,7 +10165,6 @@
         </action>
         <action id="14007865-272b-4de3-852e-ef8482952e3f" type="root">
             <actions>
-                <action-id>b2799f2f-2e6a-4481-ad84-6c56cc703d14</action-id>
                 <action-id>c11eed03-5803-4ce5-888a-c6aca0d5410c</action-id>
             </actions>
             <property type="string">
@@ -11781,7 +10178,6 @@
         </action>
         <action id="aef6274f-658e-4258-a883-5804606d689d" type="root">
             <actions>
-                <action-id>f38433b9-97c1-4246-a9c3-1e018b139809</action-id>
                 <action-id>6e2857b6-f797-4f7f-8902-d74f2301be53</action-id>
             </actions>
             <property type="string">
@@ -11795,7 +10191,6 @@
         </action>
         <action id="a90e1373-459a-4dc7-afa0-81d57fe4104d" type="root">
             <actions>
-                <action-id>430b1342-ff9c-40a2-b6ce-326dc8f1f421</action-id>
                 <action-id>6d067888-e2da-45c1-9a01-5147bb9bbd5c</action-id>
             </actions>
             <property type="string">
@@ -11809,7 +10204,6 @@
         </action>
         <action id="cf30ebd7-5306-4d45-abb7-404caa2a047e" type="root">
             <actions>
-                <action-id>11fff614-83e4-43ca-96f9-eb8b419e68d5</action-id>
                 <action-id>4c29978c-5947-41ef-acb8-a2128e0ce2a5</action-id>
             </actions>
             <property type="string">
@@ -11823,7 +10217,6 @@
         </action>
         <action id="3994e9d4-c9e6-4efe-b203-d0a6bbe18250" type="root">
             <actions>
-                <action-id>fbecf3d0-8891-43fb-ab8d-487b0889def2</action-id>
                 <action-id>35fc966c-30e5-45f0-a14b-72718096b887</action-id>
             </actions>
             <property type="string">
@@ -11837,7 +10230,6 @@
         </action>
         <action id="a368eaf3-70b2-4442-90ae-fb09f6fdc2e3" type="root">
             <actions>
-                <action-id>5818df0c-cc18-48b5-bbff-cc0a64bc748f</action-id>
                 <action-id>a85bbe51-bce3-4cf0-87be-55b420237497</action-id>
             </actions>
             <property type="string">
@@ -11851,7 +10243,6 @@
         </action>
         <action id="f37506d5-6e6e-4520-bcf5-88152627a758" type="root">
             <actions>
-                <action-id>c10aa9bd-58a2-41be-be1f-b42f7ce2d490</action-id>
                 <action-id>21c78ee9-21e3-495a-ab77-f1177f9a0d7e</action-id>
             </actions>
             <property type="string">
@@ -11865,7 +10256,6 @@
         </action>
         <action id="28605b03-38cc-47d1-b7cf-f7c7d15f6002" type="root">
             <actions>
-                <action-id>6fd82aa7-2512-460e-b007-8b8d9db3715f</action-id>
                 <action-id>89f39ad6-088f-4b9a-b60e-891e1e047748</action-id>
             </actions>
             <property type="string">
@@ -11879,7 +10269,6 @@
         </action>
         <action id="ad4d3e96-7b57-448e-93fb-f727e4b88fbc" type="root">
             <actions>
-                <action-id>b85bf54a-057c-48bd-bbbe-e7b51553faac</action-id>
                 <action-id>ceb8bc13-e469-48fd-9d8f-06f295417669</action-id>
             </actions>
             <property type="string">
@@ -11893,7 +10282,6 @@
         </action>
         <action id="4e0f3451-9cef-4a52-8b81-8415caa03dc1" type="root">
             <actions>
-                <action-id>2f0c515e-25d9-4977-b654-646d54da3b7b</action-id>
                 <action-id>52dc5b0b-22bd-4766-a03d-1728f64a2140</action-id>
             </actions>
             <property type="string">
@@ -11907,7 +10295,6 @@
         </action>
         <action id="c490faf7-4aae-462c-a718-5b6ef462c67c" type="root">
             <actions>
-                <action-id>d8ffa0da-1505-4e2e-af79-3bd4ca61d872</action-id>
                 <action-id>c64c2ac8-b68a-4e25-968c-30eaaf3710d3</action-id>
             </actions>
             <property type="string">
@@ -11921,7 +10308,6 @@
         </action>
         <action id="1fd3d027-ed41-4234-84ae-f8a12ed998e5" type="root">
             <actions>
-                <action-id>3bb83c1c-2ed1-4e32-acf1-d942ff99efb6</action-id>
                 <action-id>de4487d4-6cbe-4743-a77d-8762d6100edf</action-id>
             </actions>
             <property type="string">
@@ -11948,7 +10334,6 @@
         </action>
         <action id="6f9a83bc-b149-4348-aa35-14d84b572742" type="root">
             <actions>
-                <action-id>6be8c431-835d-40fc-8850-3af4c330980c</action-id>
                 <action-id>890c09d2-21f4-4adc-a1bf-6aeae2bc67ff</action-id>
             </actions>
             <property type="string">
@@ -12027,7 +10412,6 @@
         </action>
         <action id="328ae24f-0f20-4e34-aac5-1cb5155f21c8" type="root">
             <actions>
-                <action-id>94eb302a-0e85-4f3d-91fb-12c8bc24e48a</action-id>
                 <action-id>8a38e316-42d8-418a-b89f-a35fb0c7bdf2</action-id>
             </actions>
             <property type="string">
@@ -12041,7 +10425,6 @@
         </action>
         <action id="600d3ee3-ced7-4321-8bac-8527c55e0847" type="root">
             <actions>
-                <action-id>00ad92da-83ed-4289-ac76-c2cd53096f8b</action-id>
                 <action-id>2b5147ea-6772-4669-b701-41d86ebc2286</action-id>
             </actions>
             <property type="string">
@@ -12055,7 +10438,6 @@
         </action>
         <action id="a790baff-3058-41ec-96ec-59f99bbf7ef5" type="root">
             <actions>
-                <action-id>9fbbcb72-0a48-4d06-b8dc-e6a70bf8b64b</action-id>
                 <action-id>59e5cb0c-f8ce-4e94-a54a-c448f63e3743</action-id>
             </actions>
             <property type="string">
@@ -12199,7 +10581,6 @@
         </action>
         <action id="be2f344d-7000-4d02-8378-713b18b79bd5" type="root">
             <actions>
-                <action-id>bd3166fb-43ab-4669-8937-cc6ef34ce2a1</action-id>
                 <action-id>b0e32b5d-980d-4e16-9cba-b3c8d1605ea2</action-id>
             </actions>
             <property type="string">
@@ -12213,7 +10594,6 @@
         </action>
         <action id="ef8f8e3c-9fcb-4e74-924a-26343e03cb6a" type="root">
             <actions>
-                <action-id>54ee2789-ea56-4aab-9c12-913ea8114f65</action-id>
                 <action-id>3a21a90b-8136-4f9d-b631-4bc22a5b3354</action-id>
             </actions>
             <property type="string">
@@ -12331,7 +10711,6 @@
         </action>
         <action id="7eef9ec8-915b-4b28-8aec-acd3a836be63" type="root">
             <actions>
-                <action-id>f297fc46-f17a-42c5-90f0-ac17be28b228</action-id>
                 <action-id>a3400a6b-27bb-4b35-84d8-74c643ac4eb9</action-id>
             </actions>
             <property type="string">
@@ -12345,7 +10724,6 @@
         </action>
         <action id="9a61e4a2-7d82-470a-9795-d78b2e68df0a" type="root">
             <actions>
-                <action-id>fc86cb15-19b0-47f4-b214-789f3506f926</action-id>
                 <action-id>5c373b81-df9a-41bc-a6bb-0947c98417ae</action-id>
             </actions>
             <property type="string">
@@ -12359,7 +10737,6 @@
         </action>
         <action id="1b4e98a3-5752-4889-9960-7813d2b5a6cd" type="root">
             <actions>
-                <action-id>2f49bab4-f629-4c00-aed2-6cf10d673006</action-id>
                 <action-id>ff4fa6ec-67df-4d55-8f6c-ac223d9d133d</action-id>
             </actions>
             <property type="string">
@@ -12373,7 +10750,6 @@
         </action>
         <action id="731638ff-c64b-4ae4-8278-5e306840e190" type="root">
             <actions>
-                <action-id>6719fdc2-d473-420a-aed6-516d0e542416</action-id>
                 <action-id>db3fa141-ba83-4df5-a3d7-cee0a1d6c2df</action-id>
             </actions>
             <property type="string">
@@ -12387,7 +10763,6 @@
         </action>
         <action id="5d5b76a8-9c5d-4de6-aea9-3cf77c686371" type="root">
             <actions>
-                <action-id>00b7f0c4-a405-4d80-a175-6ef3d975576b</action-id>
                 <action-id>5d2e7b82-a9ec-4ced-a462-70fb7e016a04</action-id>
             </actions>
             <property type="string">
@@ -12401,7 +10776,6 @@
         </action>
         <action id="444b66e3-a2c6-44f7-97d4-6dfd2fca0cb1" type="root">
             <actions>
-                <action-id>1d1afc1e-671e-433d-b994-5c2330ecd909</action-id>
                 <action-id>be684446-b3f3-4eda-b866-b4f335e5dadd</action-id>
             </actions>
             <property type="string">
@@ -12415,7 +10789,6 @@
         </action>
         <action id="44b9bff9-0735-46f2-b9c6-926c890645e4" type="root">
             <actions>
-                <action-id>e4e12cda-2bb6-4cf2-849f-5f211031038d</action-id>
                 <action-id>2ae82165-6b30-4429-86e1-04316b79a20d</action-id>
             </actions>
             <property type="string">
@@ -12429,7 +10802,6 @@
         </action>
         <action id="355c5cc7-d244-4368-b08f-e4bfb86df8e1" type="root">
             <actions>
-                <action-id>a3e14b22-604b-4b11-a356-2ef35c1ec07e</action-id>
                 <action-id>56d2e034-ca99-4d09-9917-a81624e6ce77</action-id>
             </actions>
             <property type="string">
@@ -12443,7 +10815,6 @@
         </action>
         <action id="e94673de-0b93-4cb4-974f-1788c7d351d4" type="root">
             <actions>
-                <action-id>30c52353-4587-4e10-8003-cd1be79b4f6e</action-id>
                 <action-id>31059dc9-bdd3-450e-bf15-0f2e3da766dc</action-id>
             </actions>
             <property type="string">
@@ -12457,7 +10828,6 @@
         </action>
         <action id="e5793496-d097-486b-8df5-019cdeabb1fb" type="root">
             <actions>
-                <action-id>869cc5be-fa83-4ac2-9109-e4c97cf9918e</action-id>
                 <action-id>24be688f-955c-42c8-a3da-fda030cce1b0</action-id>
             </actions>
             <property type="string">
@@ -12471,7 +10841,6 @@
         </action>
         <action id="fd86628e-2d12-47cb-8dcb-62c88329cdf7" type="root">
             <actions>
-                <action-id>c28db170-16b6-4115-8024-2e92ef89a610</action-id>
                 <action-id>a6422d4f-580a-4d31-8020-fbe47a5f6ac8</action-id>
             </actions>
             <property type="string">
@@ -12485,7 +10854,6 @@
         </action>
         <action id="a73b835e-f915-478e-9ead-ab0186724e12" type="root">
             <actions>
-                <action-id>48ad6f70-4375-4a26-a76e-6dca5c4d6e97</action-id>
                 <action-id>e13b8d58-effc-490d-91f5-bd421c38e107</action-id>
             </actions>
             <property type="string">
@@ -12512,7 +10880,6 @@
         </action>
         <action id="336d832b-0855-4ec8-9d63-f596721f5644" type="root">
             <actions>
-                <action-id>b5381b14-d7ee-460a-a16d-71fa969a9ff2</action-id>
                 <action-id>8fa31a54-78a1-49c1-a2f7-2c6b3ab8a3e3</action-id>
             </actions>
             <property type="string">
@@ -12539,7 +10906,6 @@
         </action>
         <action id="ed9ef4ca-d984-4026-9d12-af8d9d4cfcd9" type="root">
             <actions>
-                <action-id>35dc0c0b-3802-4ec3-a753-bb0af6001166</action-id>
                 <action-id>bcafefe0-868a-4895-ada6-aa1c44bb2e08</action-id>
             </actions>
             <property type="string">
@@ -12553,7 +10919,6 @@
         </action>
         <action id="6e96f32f-6e42-4bb7-bee4-fc420bf0250d" type="root">
             <actions>
-                <action-id>e411ef2e-cb41-470d-9527-6b015a012dc9</action-id>
                 <action-id>0fb2748d-9cad-496f-a060-cebf24572ee3</action-id>
             </actions>
             <property type="string">
@@ -12595,7 +10960,6 @@
         </action>
         <action id="70f20cfe-15d1-4144-a321-025b65907db6" type="root">
             <actions>
-                <action-id>9f03d6bc-d79d-4af2-8f39-010d8c7569b5</action-id>
                 <action-id>e59c962f-b010-47da-bd08-797a8322f37f</action-id>
             </actions>
             <property type="string">
@@ -12609,7 +10973,6 @@
         </action>
         <action id="a6eb6da4-29cf-4053-a92f-b4de918ad417" type="root">
             <actions>
-                <action-id>6d3ad9ff-b2e1-4809-aa2e-677190c704ae</action-id>
                 <action-id>0e631f17-8287-4ae4-9dad-3a372eadc49e</action-id>
             </actions>
             <property type="string">
@@ -12623,7 +10986,6 @@
         </action>
         <action id="0f9a5b79-7f7c-4e83-b66d-76f08cd6bf9f" type="root">
             <actions>
-                <action-id>0fdfa4aa-76ec-46a0-b8c9-532c5c891210</action-id>
                 <action-id>42f218b7-505f-4fef-bd99-ecd9f0e6b611</action-id>
             </actions>
             <property type="string">
@@ -12637,7 +10999,6 @@
         </action>
         <action id="f73c1e37-df92-43e7-b12b-ff8134ea2406" type="root">
             <actions>
-                <action-id>8d2d6518-1bbb-450b-a06b-62826ba93031</action-id>
                 <action-id>472dfbe7-c1ca-4f8a-b2a8-7d9fc8415b82</action-id>
             </actions>
             <property type="string">
@@ -12651,7 +11012,6 @@
         </action>
         <action id="401cb43b-c32f-449d-8904-1c76710aab73" type="root">
             <actions>
-                <action-id>0a987dcc-c848-49cf-af53-f0f794ab7b8c</action-id>
                 <action-id>549c4c7d-3d8e-4d5a-b85a-b350cdc391ad</action-id>
             </actions>
             <property type="string">
@@ -12665,7 +11025,6 @@
         </action>
         <action id="565671be-1613-4af0-9d50-1f845a1ee3a6" type="root">
             <actions>
-                <action-id>eb09d68b-1ea8-4b05-a199-b08a68bce34b</action-id>
                 <action-id>4fd4bbd0-071f-4e94-b38d-f68a652e6332</action-id>
             </actions>
             <property type="string">
@@ -12679,7 +11038,6 @@
         </action>
         <action id="1f74f57a-7b93-4479-8566-50c7f63a168a" type="root">
             <actions>
-                <action-id>a188624b-0b3e-48b0-83b5-857d95bd110d</action-id>
                 <action-id>b2b50d4c-5031-45da-a33a-41e53aed90a1</action-id>
             </actions>
             <property type="string">
@@ -12745,7 +11103,6 @@
         </action>
         <action id="e4b06750-103a-4a64-a15f-20812435e439" type="root">
             <actions>
-                <action-id>1b545564-3fed-4c2b-a3b7-ea3961f5b499</action-id>
                 <action-id>30aac542-1c42-4c88-a39e-28148717aba0</action-id>
             </actions>
             <property type="string">
@@ -12759,7 +11116,6 @@
         </action>
         <action id="e0db6e1e-a913-4006-907f-e6177dda1fc8" type="root">
             <actions>
-                <action-id>71e9a2a7-e1be-484c-ab0b-ae753b65be0a</action-id>
                 <action-id>d256c57f-77d5-42e9-9253-24e842fffc38</action-id>
             </actions>
             <property type="string">
@@ -12773,7 +11129,6 @@
         </action>
         <action id="76fc4bb3-2607-49cf-afe3-1e9f21eb0dbf" type="root">
             <actions>
-                <action-id>49f616a0-16e0-4a09-9e24-59c48ab1c05c</action-id>
                 <action-id>8d7f186d-8128-4ebc-9000-817e2d1a00a2</action-id>
             </actions>
             <property type="string">
@@ -12787,7 +11142,6 @@
         </action>
         <action id="a0714701-a863-421f-973d-332dce83c3c2" type="root">
             <actions>
-                <action-id>1d4f8c85-72c4-46c8-af54-78a09ae846ba</action-id>
                 <action-id>f794131e-4a2a-41ac-871c-514bff10fea3</action-id>
             </actions>
             <property type="string">
@@ -12801,7 +11155,6 @@
         </action>
         <action id="4bca0c29-9c9e-47d7-a8b7-dbfb491ad752" type="root">
             <actions>
-                <action-id>c7b8a1ea-7bf7-4e54-8b35-a5060ce0578e</action-id>
                 <action-id>9fbabe1b-a878-4b1a-9899-eb2b16993bbf</action-id>
             </actions>
             <property type="string">
@@ -12815,7 +11168,6 @@
         </action>
         <action id="ac23e6a2-910a-4d57-9553-d01725684029" type="root">
             <actions>
-                <action-id>a6c491bf-ed55-447c-9820-3d659471351c</action-id>
                 <action-id>29da2a87-e644-404e-a34b-040d82c5bb7d</action-id>
             </actions>
             <property type="string">
@@ -12829,7 +11181,6 @@
         </action>
         <action id="b4a3bbdf-c617-44f7-938b-083f85e86409" type="root">
             <actions>
-                <action-id>aa5f94b1-2cce-4746-8c2b-6e1800c41b6b</action-id>
                 <action-id>5ca6f368-2f72-4c62-85b0-b7e575b6b7ab</action-id>
             </actions>
             <property type="string">
@@ -12843,7 +11194,6 @@
         </action>
         <action id="9a13e7f5-579b-4a47-8c0a-bdb5c057d1ad" type="root">
             <actions>
-                <action-id>fe78625e-401b-45cb-8af7-aeb9845f0218</action-id>
                 <action-id>6a413d63-bc7a-4635-a296-205f856d78b7</action-id>
             </actions>
             <property type="string">
@@ -12909,7 +11259,6 @@
         </action>
         <action id="43e34f35-1b4a-4d09-9826-04b6c4cedbfd" type="root">
             <actions>
-                <action-id>6128c99b-77f1-47dc-bb65-a90f3aec30ec</action-id>
                 <action-id>69477f61-90bb-48fe-8b58-8abbbf4d1f2d</action-id>
             </actions>
             <property type="string">
@@ -12923,7 +11272,6 @@
         </action>
         <action id="77e77100-c598-41d0-8d45-7d50b3d05628" type="root">
             <actions>
-                <action-id>d928c858-c9b9-4f45-9d5d-3ce7271c637a</action-id>
                 <action-id>fa5eab8f-9bc6-4082-afe6-275007f835c6</action-id>
             </actions>
             <property type="string">
@@ -12937,7 +11285,6 @@
         </action>
         <action id="ed35ca15-f671-48b2-9e34-becec55e227f" type="root">
             <actions>
-                <action-id>1c52d832-13b6-4af7-bde0-0a564536082e</action-id>
                 <action-id>5eb743ee-fa8a-4775-8a93-06a8724ec565</action-id>
             </actions>
             <property type="string">
@@ -12951,7 +11298,6 @@
         </action>
         <action id="3fdeda11-308a-4127-b023-d94441cec76d" type="root">
             <actions>
-                <action-id>f981a03e-7fd0-476a-8e89-cbe1bea98aed</action-id>
                 <action-id>c993a789-692c-4ce7-8dc9-d07b21d499f6</action-id>
             </actions>
             <property type="string">
@@ -12965,7 +11311,6 @@
         </action>
         <action id="4b09861a-dd46-41e0-a33c-4b9ee6de99a3" type="root">
             <actions>
-                <action-id>3d8695d9-aa2c-4db6-b82f-1af70cdcb147</action-id>
                 <action-id>2f923b66-32a1-4fac-946c-b47cd81a110a</action-id>
             </actions>
             <property type="string">
@@ -12992,7 +11337,6 @@
         </action>
         <action id="0b17ec05-7653-4668-83d9-f7f76354a717" type="root">
             <actions>
-                <action-id>2ab2e8d0-b10a-4eba-8105-8bede835ac83</action-id>
                 <action-id>7ba080ce-0a52-4ee2-9a17-8d8ffab18ce2</action-id>
             </actions>
             <property type="string">
@@ -13006,7 +11350,6 @@
         </action>
         <action id="ddfc23a1-c0bc-4746-8cde-fd13e2362604" type="root">
             <actions>
-                <action-id>edac8c30-92e7-499a-9c18-c09987128a23</action-id>
                 <action-id>ac91c14d-99c7-4712-af33-bb4ad45b1c16</action-id>
             </actions>
             <property type="string">
@@ -13020,7 +11363,6 @@
         </action>
         <action id="e6592421-f159-4155-9a06-def10f09d785" type="root">
             <actions>
-                <action-id>89883ca1-db5b-4e6f-a903-a9258489cad2</action-id>
                 <action-id>c7be50c9-5dff-45cc-ab08-ac04ae3155c1</action-id>
             </actions>
             <property type="string">
@@ -13034,7 +11376,6 @@
         </action>
         <action id="22e6e91c-c414-48e1-89c5-f8b7a286cd72" type="root">
             <actions>
-                <action-id>2cd63177-6ad1-491d-83a4-89aa48dd2111</action-id>
                 <action-id>b5412d0f-9600-4ead-a7df-b2539c2b80a1</action-id>
             </actions>
             <property type="string">
@@ -13048,7 +11389,6 @@
         </action>
         <action id="f3691090-13b1-478b-8563-80ffe1f82315" type="root">
             <actions>
-                <action-id>7890676a-f98a-47f4-93b6-0c46b929ba82</action-id>
                 <action-id>0a8004dd-dffc-4802-86fa-a0ed989c5110</action-id>
             </actions>
             <property type="string">
@@ -13062,7 +11402,6 @@
         </action>
         <action id="55afd086-19e1-4b8c-87c5-5b2b217fc713" type="root">
             <actions>
-                <action-id>95852e66-a80a-4b6f-b1d6-6d1e1efb31d5</action-id>
                 <action-id>b2262c8a-e2e5-44d4-beb9-08e3ae12374c</action-id>
             </actions>
             <property type="string">
@@ -13076,7 +11415,6 @@
         </action>
         <action id="ed98495a-3ae4-4ffc-a846-7b543a48267a" type="root">
             <actions>
-                <action-id>6effbb4b-4a9c-4d1e-8432-6c625a29ae81</action-id>
                 <action-id>cb3732b8-f833-42fc-afae-9ee859283141</action-id>
             </actions>
             <property type="string">
@@ -13090,7 +11428,6 @@
         </action>
         <action id="08e94a02-92dd-4b79-8edb-a841bd96dc1e" type="root">
             <actions>
-                <action-id>bff446dd-5129-4f87-9900-d1fd886bb36b</action-id>
                 <action-id>ab0d094f-0589-4ca4-a5a7-9cc46340565f</action-id>
             </actions>
             <property type="string">
@@ -13104,7 +11441,6 @@
         </action>
         <action id="7376928f-cf4f-4ce1-bd17-4cf975bda2c6" type="root">
             <actions>
-                <action-id>1e41e89c-b49b-420d-aeae-f354c38c04d7</action-id>
                 <action-id>7294252f-a677-4a24-aad9-aca37b7e97eb</action-id>
             </actions>
             <property type="string">
@@ -13118,7 +11454,6 @@
         </action>
         <action id="4e0aa84b-0cb0-46de-8677-3a0e87767bca" type="root">
             <actions>
-                <action-id>84f7dbaf-e30b-4c46-8f9f-067a082f7420</action-id>
                 <action-id>375103e9-2b16-4872-9f85-c63e956384e5</action-id>
             </actions>
             <property type="string">
@@ -13132,7 +11467,6 @@
         </action>
         <action id="f3dc4db4-b475-4a78-828c-ade19aadd522" type="root">
             <actions>
-                <action-id>f1d41cc3-ad34-4b63-bd9e-074d589f5b4e</action-id>
                 <action-id>708d4f8f-2398-434a-a896-7d455111368e</action-id>
             </actions>
             <property type="string">
@@ -13146,7 +11480,6 @@
         </action>
         <action id="f0d8e993-eb7f-492f-bd74-75870313cf12" type="root">
             <actions>
-                <action-id>f3a227cf-7cda-4f6a-bf8e-a09b062d4d88</action-id>
                 <action-id>130f277c-a285-4c68-959d-b5ecfb9ef503</action-id>
             </actions>
             <property type="string">
@@ -13173,7 +11506,6 @@
         </action>
         <action id="e9390fea-1da1-410f-8ef5-121ddd7251d3" type="root">
             <actions>
-                <action-id>e2574700-4cb1-4552-a22f-ae06ad392721</action-id>
                 <action-id>c6856f91-f51a-43e6-a4d6-0ed58fe2cbba</action-id>
             </actions>
             <property type="string">
@@ -13187,7 +11519,6 @@
         </action>
         <action id="8dc9d6a3-be36-4a51-86a0-fdb48f18f550" type="root">
             <actions>
-                <action-id>52a04b0b-e0e5-4474-9416-6a05b728d4ca</action-id>
                 <action-id>070ef09a-9a2a-40f6-bde6-2cfd437695aa</action-id>
             </actions>
             <property type="string">
@@ -13217,7 +11548,6 @@
         <action id="8ef8fd6e-88dd-4ea3-a825-47e4ca3e9e8d" type="root">
             <actions>
                 <action-id>a6236fa2-2fe6-45b3-8e96-16128a3ee860</action-id>
-                <action-id>3518c667-1185-4d57-acc1-0cadb3cb0780</action-id>
                 <action-id>6b75c775-72ac-4995-9a6b-3e4e226f5228</action-id>
             </actions>
             <property type="string">
@@ -13490,7 +11820,6 @@
         </action>
         <action id="43bc3432-969f-469d-bf0a-730649ce3365" type="root">
             <actions>
-                <action-id>d54cd3bb-aa7a-48dc-a3a7-861e747aa3f5</action-id>
                 <action-id>693167f5-15c5-4da2-968f-aaa6ac6db6af</action-id>
             </actions>
             <property type="string">
