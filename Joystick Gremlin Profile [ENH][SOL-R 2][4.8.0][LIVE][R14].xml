@@ -8717,7 +8717,7 @@
         <action id="0a9ddb43-b7ef-4d89-8354-a408d03be8b7" type="description">
             <property type="string">
                 <name>description</name>
-                <value/>
+                <value>None</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -10089,7 +10089,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-SCROLL.press.tap</value>
+                <value>.tap</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10115,7 +10115,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-SCROLL.press.hold</value>
+                <value>hold</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11689,20 +11689,6 @@
             <property type="string">
                 <name>action-label</name>
                 <value>Root</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="a28b93ee-7329-4cb4-bede-d7eb1ca4eb5f" type="root">
-            <actions>
-                <action-id>40d76149-8532-4a72-826c-238ebd3fb2e3</action-id>
-                <action-id>e6909903-dee7-4069-ba56-f5e0cfb487ef</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Modifier</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13332,7 +13318,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>Tempo</value>
+                <value>L-SCROLL.press</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13447,20 +13433,6 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="d548c76f-4944-442d-b301-44e682bc9df1" type="root">
-            <actions>
-                <action-id>55115bc6-685a-4567-8eb0-d49e78d65725</action-id>
-                <action-id>8409bf08-8ca0-4ef0-96ea-8cfb02e41232</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Root</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="7988342f-b735-410a-a2ab-6d2b6b897e7b" type="root">
             <actions>
                 <action-id>53311a32-f3d0-46b0-9cf8-f0ba475022c7</action-id>
@@ -13496,20 +13468,6 @@
             <property type="string">
                 <name>action-label</name>
                 <value>Tempo (Tap/Hold) MM</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="0f19ebb2-c504-4a04-9bf9-c2e427652cc4" type="root">
-            <actions>
-                <action-id>82cc7953-d8c7-41bd-bfc0-4cd87dc523dc</action-id>
-                <action-id>1b3a5733-ca77-40a9-8e51-7023d3e9f127</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Hat To Buttons</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13566,7 +13524,7 @@
         <action id="9db19771-c84d-4a0e-b6a3-f3d9a19524ae" type="description">
             <property type="string">
                 <name>description</name>
-                <value/>
+                <value>None</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -13599,19 +13557,6 @@
             <property type="string">
                 <name>action-label</name>
                 <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="c7c94eab-c70a-40f3-8e08-eb2e4116a6f8" type="root">
-            <actions>
-                <action-id>9f1945d0-4095-4b0e-85a8-d214295e7d9c</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Axis to Buttons</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13651,7 +13596,7 @@
         <action id="5facef16-2ce3-4842-9cd5-8e0fea93a637" type="description">
             <property type="string">
                 <name>description</name>
-                <value/>
+                <value>None</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -13665,24 +13610,11 @@
         <action id="69fd34e7-4ce0-4632-a4db-cb24407ce3ae" type="description">
             <property type="string">
                 <name>description</name>
-                <value/>
+                <value>None</value>
             </property>
             <property type="string">
                 <name>action-label</name>
                 <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="1635596e-bf28-4441-91e8-a91e9bd7aed4" type="root">
-            <actions>
-                <action-id>0f4663e3-7c0e-4503-a5cc-e5da098d665b</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Axis To Buttons</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -13725,6 +13657,74 @@
             <property type="string">
                 <name>action-label</name>
                 <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="a28b93ee-7329-4cb4-bede-d7eb1ca4eb5f" type="root">
+            <actions>
+                <action-id>40d76149-8532-4a72-826c-238ebd3fb2e3</action-id>
+                <action-id>e6909903-dee7-4069-ba56-f5e0cfb487ef</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Modifier</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="d548c76f-4944-442d-b301-44e682bc9df1" type="root">
+            <actions>
+                <action-id>55115bc6-685a-4567-8eb0-d49e78d65725</action-id>
+                <action-id>8409bf08-8ca0-4ef0-96ea-8cfb02e41232</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Root</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="0f19ebb2-c504-4a04-9bf9-c2e427652cc4" type="root">
+            <actions>
+                <action-id>82cc7953-d8c7-41bd-bfc0-4cd87dc523dc</action-id>
+                <action-id>1b3a5733-ca77-40a9-8e51-7023d3e9f127</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Hat To Buttons</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="c7c94eab-c70a-40f3-8e08-eb2e4116a6f8" type="root">
+            <actions>
+                <action-id>9f1945d0-4095-4b0e-85a8-d214295e7d9c</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Axis to Buttons</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="1635596e-bf28-4441-91e8-a91e9bd7aed4" type="root">
+            <actions>
+                <action-id>0f4663e3-7c0e-4503-a5cc-e5da098d665b</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Axis To Buttons</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
