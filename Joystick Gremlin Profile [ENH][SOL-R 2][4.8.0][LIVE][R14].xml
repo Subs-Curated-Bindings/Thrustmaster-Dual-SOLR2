@@ -8317,7 +8317,7 @@
         <action id="0d1dcf31-bcc7-42cf-a5d4-386127c9e2e3" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Analog hat Y (vjoy 1 roty, player movement Y in foot mode)</value>
+                <value>ANALOG-HAT-L [Modifier] — Analog hat Y (vjoy 1 roty, player movement Y in foot mode)</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8597,7 +8597,7 @@
         <action id="15d5f5ce-7370-4b79-abc9-ccc516b8ac8c" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_retract_landing_system</value>
+                <value>4WAY-HAT-L-40 — v_retract_landing_system</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8611,7 +8611,7 @@
         <action id="28e2e675-b467-401f-be16-c84ff2b0065a" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_autoland | v_deploy_landing_system | v_toggle_landing_system</value>
+                <value>4WAY-HAT-L-40 — v_autoland | v_deploy_landing_system | v_toggle_landing_system</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8625,7 +8625,7 @@
         <action id="4c57a060-28f8-4d12-bad8-99f3b686e8b4" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_close_all_doors | v_close_all_doors</value>
+                <value>LL-SWITCH — v_close_all_doors | v_close_all_doors</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8639,7 +8639,7 @@
         <action id="1145a7b6-fcea-42cc-8bf7-20b38f177c4a" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_open_all_doors | v_toggle_all_doors | v_open_all_doors</value>
+                <value>LL-SWITCH — v_open_all_doors | v_toggle_all_doors | v_open_all_doors</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8653,7 +8653,7 @@
         <action id="d9585505-f64a-489d-a3cd-d6266d52d506" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_ifcs_toggle_esp | turret_esp_toggle</value>
+                <value>LL-BTNS — v_ifcs_toggle_esp | turret_esp_toggle</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8667,7 +8667,7 @@
         <action id="708009bb-c8be-4c78-a7d1-719699f9d017" type="description">
             <property type="string">
                 <name>description</name>
-                <value>turret_gyromode</value>
+                <value>LL-BTNS — turret_gyromode</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8681,7 +8681,7 @@
         <action id="3d56ae15-84ec-47b0-aa73-8353817f2697" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_view_dynamic_zoom_abs_toggle</value>
+                <value>4WAY-HAT-L-30 — v_view_dynamic_zoom_abs_toggle</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8695,7 +8695,7 @@
         <action id="9cdbaf04-30fe-4d0b-a180-a1ba2f1c4ba7" type="description">
             <property type="string">
                 <name>description</name>
-                <value>turret_change_position | turret_recenter | v_weapon_staggered_fire_toggle</value>
+                <value>LL-BTNS — turret_change_position | turret_recenter | v_weapon_staggered_fire_toggle</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8709,7 +8709,7 @@
         <action id="0a9ddb43-b7ef-4d89-8354-a408d03be8b7" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Decoy Burst Size Dec / Tractor Distance Inc.</value>
+                <value>L-ENCODER — Decoy Burst Size Dec / Tractor Distance Inc.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8723,7 +8723,7 @@
         <action id="4d8577f3-e613-4fb6-a517-df3d1950cc7a" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Decoy Burst Size Inc / Tractor Distance Inc.</value>
+                <value>L-ENCODER — Decoy Burst Size Inc / Tractor Distance Inc.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8737,7 +8737,7 @@
         <action id="33501ece-0ba8-484b-9dd0-c643a72b33d0" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_salvage_toggle_beam_spacing_axis</value>
+                <value>ANALOG-HAT-L — v_salvage_toggle_beam_spacing_axis</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8751,7 +8751,7 @@
         <action id="8050814b-fec7-4be8-be2f-df067431f917" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_unlock_all_doors | v_unlock_all_ports | v_unlock_all_doors</value>
+                <value>LR-SWITCH — v_unlock_all_doors | v_unlock_all_ports | v_unlock_all_doors</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8765,7 +8765,7 @@
         <action id="80ce5b65-d5a4-4723-93d3-a877114cffa5" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_lock_all_doors | v_toggle_all_doorlocks | v_lock_all_doors</value>
+                <value>LR-SWITCH — v_lock_all_doors | v_toggle_all_doorlocks | v_lock_all_doors</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8779,7 +8779,7 @@
         <action id="71d7b8cb-f345-4ebd-b684-f19f6f2dfad6" type="description">
             <property type="string">
                 <name>description</name>
-                <value>L-SW-3.up — v_toggle_all_doors | v_unlock_all_ports</value>
+                <value>LL-SWITCH — v_toggle_all_doors | v_unlock_all_ports</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8793,7 +8793,7 @@
         <action id="767b783f-5402-4320-9a85-9e6540f11e1c" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_lock_all_ports | v_toggle_all_portlocks | v_lock_all_ports</value>
+                <value>LR-SWITCH — v_lock_all_ports | v_toggle_all_portlocks | v_lock_all_ports</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8821,7 +8821,7 @@
         <action id="e8c6be17-83ff-4f42-8cfa-05fd84a72671" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_weapon_pip_toggle_lead_lag</value>
+                <value>LR-BTNS — v_weapon_pip_toggle_lead_lag</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8849,7 +8849,7 @@
         <action id="a3825db1-b002-40b8-a852-b7b5f006dce1" type="description">
             <property type="string">
                 <name>description</name>
-                <value>NAV Mode (change-mode)</value>
+                <value>L-KNOB — NAV Mode (change-mode)</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8863,7 +8863,7 @@
         <action id="1f8bf350-c902-4fac-8627-4cd310d6409b" type="description">
             <property type="string">
                 <name>description</name>
-                <value>SCM Mode (change-mode)</value>
+                <value>L-KNOB — SCM Mode (change-mode)</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8877,7 +8877,7 @@
         <action id="78b1f086-ddc5-4694-9c14-687222c444ef" type="description">
             <property type="string">
                 <name>description</name>
-                <value>SCM M/S Mode (change-mode)</value>
+                <value>L-KNOB — SCM M/S Mode (change-mode)</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8891,7 +8891,7 @@
         <action id="f0bc4a7f-f2f1-42fd-815c-3973e0d15221" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Toggle Auxilliary (change-mode)</value>
+                <value>L-KNOB — Toggle Auxilliary (change-mode)</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8905,7 +8905,7 @@
         <action id="9aa832a8-5568-4052-a010-738bd5967c9b" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_afterburner | v_ifcs_toggle_gforce_safety | zoom</value>
+                <value>4WAY-HAT-L-30 — v_afterburner | v_ifcs_toggle_gforce_safety | zoom</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8919,7 +8919,7 @@
         <action id="bf99f79f-0bd7-46fb-96d6-9803d42576b6" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_strafe_trim_reset_long</value>
+                <value>MAIN-TRIG-L — v_strafe_trim_reset_long</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8933,7 +8933,7 @@
         <action id="4accdc68-57d3-41fb-9d65-a558eb73cbad" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_space_brake | eva_brake | v_brake</value>
+                <value>RAPID-TRIG-L — v_space_brake | eva_brake | v_brake</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8947,7 +8947,7 @@
         <action id="38b9133c-947c-4d54-9134-16097d398ed8" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_invoke_ping | jump</value>
+                <value>4WAY-HAT-L-40 — v_invoke_ping | jump</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8989,7 +8989,7 @@
         <action id="adab69fc-86bc-4f51-8e21-e495620fd733" type="description">
             <property type="string">
                 <name>description</name>
-                <value>L30.press — v_view_freelook_mode | eva_toggle_headlook_mode | v_view_freelook_mode</value>
+                <value>LL-BTNS — v_view_freelook_mode | eva_toggle_headlook_mode | v_view_freelook_mode</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9003,7 +9003,7 @@
         <action id="8cb6a26b-b9f4-49d5-9793-e581b45af316" type="description">
             <property type="string">
                 <name>description</name>
-                <value>headtrack_camera_enabled | headtrack_enabled</value>
+                <value>4WAY-HAT-L-30 — headtrack_camera_enabled | headtrack_enabled</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9017,7 +9017,7 @@
         <action id="4e17f166-ca06-4980-b868-34e8e7d3ee7e" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_view_cycle_fwd | thirdperson | v_view_cycle_fwd</value>
+                <value>4WAY-HAT-L-30 — v_view_cycle_fwd | thirdperson | v_view_cycle_fwd</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9031,7 +9031,7 @@
         <action id="b2799f2f-2e6a-4481-ad84-6c56cc703d14" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_view_dynamic_zoom_abs_toggle | v_weapon_launch_missile_cinematic_hold</value>
+                <value>4WAY-HAT-L-30 — v_view_dynamic_zoom_abs_toggle | v_weapon_launch_missile_cinematic_hold</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9045,7 +9045,7 @@
         <action id="f38433b9-97c1-4246-a9c3-1e018b139809" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_view_look_behind</value>
+                <value>4WAY-HAT-L-30 — v_view_look_behind</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9059,7 +9059,7 @@
         <action id="430b1342-ff9c-40a2-b6ce-326dc8f1f421" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_toggle_jump_request | v_invoke_docking | v_toggle_docking_mode</value>
+                <value>L-CLUSTER — v_toggle_jump_request | v_invoke_docking | v_toggle_docking_mode</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9087,7 +9087,7 @@
         <action id="11fff614-83e4-43ca-96f9-eb8b419e68d5" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_operator_mode_cycle_forward</value>
+                <value>L-CLUSTER — v_operator_mode_cycle_forward</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9101,7 +9101,7 @@
         <action id="fbecf3d0-8891-43fb-ab8d-487b0889def2" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_operator_mode_cycle_back</value>
+                <value>L-CLUSTER — v_operator_mode_cycle_back</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9115,7 +9115,7 @@
         <action id="5818df0c-cc18-48b5-bbff-cc0a64bc748f" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_ads_stable_max_zoom_hold | v_ads_toggle</value>
+                <value>L-CLUSTER — v_ads_stable_max_zoom_hold | v_ads_toggle</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9129,7 +9129,7 @@
         <action id="c10aa9bd-58a2-41be-be1f-b42f7ce2d490" type="description">
             <property type="string">
                 <name>description</name>
-                <value>v_atc_request</value>
+                <value>4WAY-HAT-L-40 — v_atc_request</value>
             </property>
             <property type="string">
                 <name>action-label</name>
