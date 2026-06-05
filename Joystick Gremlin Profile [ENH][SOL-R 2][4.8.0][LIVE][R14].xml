@@ -8367,7 +8367,7 @@
         <action id="a82212a7-7506-4136-83c6-961718cc2c0e" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Tap: ship lights/flashlight. Hold 0.5s: light amp toggle (via macro -- SC needs tap-shape).</value>
+                <value>Tap toggles your ship lights (or flashlight on foot). Hold about half a second to toggle Light Amplification (night vision); it runs through a macro because Star Citizen only accepts a quick tap on that bind.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8381,7 +8381,7 @@
         <action id="a3825db1-b002-40b8-a852-b7b5f006dce1" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Cycle into NAV mode.</value>
+                <value>Turn the knob to this detent for NAV master mode (quantum and cruise flight). It moves Joystick Gremlin to its NAV layer and sets NAV in-game.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8395,7 +8395,7 @@
         <action id="1f8bf350-c902-4fac-8627-4cd310d6409b" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Cycle into SCM mode.</value>
+                <value>Turn the knob here for SCM master mode (normal combat and maneuvering flight). It moves Joystick Gremlin to its SCM layer and sets SCM in-game.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8409,7 +8409,7 @@
         <action id="78b1f086-ddc5-4694-9c14-687222c444ef" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Buffer bind to swap out of Aux as you go toward SCM. (Not designed to stay in this position. JG won't cycle to AUX mode)</value>
+                <value>A pass-through detent for moving out of Auxiliary back toward SCM. Don't park here; Joystick Gremlin can't cycle directly into Aux, so this slot just lets the knob travel through without sticking.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8423,7 +8423,7 @@
         <action id="f0bc4a7f-f2f1-42fd-815c-3973e0d15221" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Set Auxiliary Mode Mining Salvage</value>
+                <value>Turn the knob here to set Auxiliary master mode for mining and salvage. It moves Joystick Gremlin to its Aux layer and arms your mining/salvage tools in-game.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8437,7 +8437,7 @@
         <action id="0f97456c-5590-4e35-8f95-a942e33e538b" type="description">
             <property type="string">
                 <name>description</name>
-                <value>None</value>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8451,7 +8451,7 @@
         <action id="d1023537-fd0c-4bcc-b0b1-5c19c62be58e" type="description">
             <property type="string">
                 <name>description</name>
-                <value>None</value>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -8465,7 +8465,7 @@
         <action id="a6c74d17-d377-4a81-abf2-a488d3d99584" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Flat plateau curve to suppress potential idle-axis drift on the mouse Y free-look axis.</value>
+                <value>Routed to mouse Y so you can free-look up and down in 3rd-person flight. The flat center curve suppresses idle stick drift so the camera holds still.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -9421,6 +9421,7 @@
         </action>
         <action id="8b379eb6-ede5-4598-afbf-d4758391bc21" type="root">
             <actions>
+                <action-id>7f6869ba-3bf2-4c92-8907-fa8bade76d85</action-id>
                 <action-id>026b5b0b-92ee-456b-8908-0656d3c2bd4f</action-id>
                 <action-id>487d7f33-154c-44f8-92cc-631b1648042e</action-id>
             </actions>
@@ -9646,6 +9647,7 @@
         <action id="e0f8dffd-024c-42cd-84e2-def75ec5f07e" type="root">
             <actions>
                 <action-id>37baef66-f0fd-4664-88b8-c6678006c41c</action-id>
+                <action-id>9bf46253-e303-4cde-807f-574815c6832f</action-id>
                 <action-id>5df9c7a0-70aa-4150-bede-8a02b228c1f4</action-id>
             </actions>
             <property type="string">
@@ -9660,6 +9662,7 @@
         <action id="4eefa79f-5683-4140-8daa-6c1feb6c28e5" type="root">
             <actions>
                 <action-id>b5d720fc-aecb-44d9-9740-316216255275</action-id>
+                <action-id>d46d685f-8f3e-4fe2-916a-5edee0b28a2a</action-id>
                 <action-id>7069d952-905e-4a83-a5ed-dd2ab06752ec</action-id>
             </actions>
             <property type="string">
@@ -9674,6 +9677,7 @@
         <action id="c04793e0-49a7-4e80-822e-1a3567ce818c" type="root">
             <actions>
                 <action-id>41357446-c665-4b4d-8c94-e6971bb4ff63</action-id>
+                <action-id>285191f3-e3db-4e4b-8db9-640b87859e0e</action-id>
                 <action-id>97f45469-f9b8-4e35-a615-dc47a91fb7ba</action-id>
             </actions>
             <property type="string">
@@ -9688,6 +9692,7 @@
         <action id="dbd38ebc-6eeb-4b87-a126-e557efffdb49" type="root">
             <actions>
                 <action-id>460a282b-784b-4638-83bf-308211e3b9bd</action-id>
+                <action-id>873c1453-5fa5-45ce-9531-24feafc448e6</action-id>
                 <action-id>b47aa0fc-0bb8-448d-bdfd-497b089408c0</action-id>
             </actions>
             <property type="string">
@@ -9702,6 +9707,7 @@
         <action id="070ba68f-176a-45cd-91b6-49989c5dfbd3" type="root">
             <actions>
                 <action-id>a7ce5dce-0be6-4e76-9cfe-a28a408c0212</action-id>
+                <action-id>6bf4f9e2-6adc-4014-b6a4-e3e962116d6b</action-id>
                 <action-id>bc76ce8a-ee8e-4298-8ae0-db92575f0507</action-id>
             </actions>
             <property type="string">
@@ -9716,6 +9722,7 @@
         <action id="133e25d1-5167-4f08-936a-27757584b3d8" type="root">
             <actions>
                 <action-id>944fb141-060f-47a3-a42d-55e85b9ed4b2</action-id>
+                <action-id>30431b9e-2a78-4e53-b1e3-c8ba88d0cfa2</action-id>
                 <action-id>704b2c01-e3e5-4e1f-b42b-89a4ffe82cc9</action-id>
             </actions>
             <property type="string">
@@ -9730,6 +9737,7 @@
         <action id="fae244a3-a6af-461d-a4a1-7d5cb34463e1" type="root">
             <actions>
                 <action-id>2b37a69a-579d-4fa1-8b13-dc05b830ed14</action-id>
+                <action-id>bb128a80-41a3-4a61-9054-aaeca677496c</action-id>
                 <action-id>c2041e1f-3867-450d-93c6-9a6952f5057f</action-id>
             </actions>
             <property type="string">
@@ -10919,6 +10927,7 @@
         <action id="3f965ad5-4f0c-4a87-be00-a8150a01b6bf" type="root">
             <actions>
                 <action-id>86ceff96-64d1-400e-b762-3e73118112a0</action-id>
+                <action-id>dbec7900-5933-463f-bd56-6850260a9357</action-id>
                 <action-id>5a304edd-665e-486f-ad99-2fc7459c20c2</action-id>
             </actions>
             <property type="string">
@@ -10933,6 +10942,7 @@
         <action id="992ec2a3-67b2-4938-b78a-3cd3cbf9fb52" type="root">
             <actions>
                 <action-id>b8000887-52eb-4f67-8b72-e0f8a7fbe2e4</action-id>
+                <action-id>b3377e60-a7b4-4b8c-8cdd-25df3343e2b5</action-id>
                 <action-id>181cac68-add3-48c7-96be-df337a13386e</action-id>
             </actions>
             <property type="string">
@@ -11534,6 +11544,7 @@
         <action id="8ef8fd6e-88dd-4ea3-a825-47e4ca3e9e8d" type="root">
             <actions>
                 <action-id>a6236fa2-2fe6-45b3-8e96-16128a3ee860</action-id>
+                <action-id>614078ee-3111-4ea4-930c-abe811664ffa</action-id>
                 <action-id>6b75c775-72ac-4995-9a6b-3e4e226f5228</action-id>
             </actions>
             <property type="string">
@@ -11548,6 +11559,7 @@
         <action id="5f2f63a7-406a-417c-b092-1245bc17a148" type="root">
             <actions>
                 <action-id>52499680-bb0b-4231-b8d2-0cab0889e330</action-id>
+                <action-id>44f3ac97-74ac-478d-a7db-025196ee508e</action-id>
                 <action-id>fda725db-6923-4798-a81f-3c970f9ef501</action-id>
             </actions>
             <property type="string">
@@ -11592,6 +11604,7 @@
         <action id="1f062625-3e7b-41e1-b118-35dc776b62ed" type="root">
             <actions>
                 <action-id>94778fc4-a54f-4783-b73a-dd03409f43c2</action-id>
+                <action-id>7c583335-6548-436d-ab9a-17d71bc6d303</action-id>
                 <action-id>6e52cfba-0c7f-4c58-94a0-9fa758c3bb14</action-id>
             </actions>
             <property type="string">
@@ -11606,6 +11619,7 @@
         <action id="80400633-5d27-4d10-bed3-6c718f4445a6" type="root">
             <actions>
                 <action-id>5ba40b88-b29a-4a92-87ab-7490e351386c</action-id>
+                <action-id>aaf10232-1389-4cf7-9a3a-a03d2f28e6f9</action-id>
                 <action-id>a7231eb9-5419-4249-b563-2a166a32386b</action-id>
             </actions>
             <property type="string">
@@ -11792,6 +11806,7 @@
         </action>
         <action id="43bc3432-969f-469d-bf0a-730649ce3365" type="root">
             <actions>
+                <action-id>eeabb2ba-9d5f-436d-a063-2f89d4e42a48</action-id>
                 <action-id>693167f5-15c5-4da2-968f-aaa6ac6db6af</action-id>
             </actions>
             <property type="string">
@@ -11981,7 +11996,7 @@
         <action id="40d76149-8532-4a72-826c-238ebd3fb2e3" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Modifier Layer Activation</value>
+                <value>Hold the pinky lever to switch on the Modifier layer, a temporary shift that gives most buttons a second function while held. Release to return. Nothing is sent to the game; it only changes Joystick Gremlin's layer.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -12060,7 +12075,217 @@
                 <value>disallowed</value>
             </property>
         </action>
-    </library>
+            <action id="7f6869ba-3bf2-4c92-8907-fa8bade76d85" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>Tap fires the normal Dock/Undock view toggle. Hold sends an F4+numpad keyboard chord to flip the docking camera, since Star Citizen won't let you bind that camera to a stick button.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="9bf46253-e303-4cde-807f-574815c6832f" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="aaf10232-1389-4cf7-9a3a-a03d2f28e6f9" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="d46d685f-8f3e-4fe2-916a-5edee0b28a2a" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="285191f3-e3db-4e4b-8db9-640b87859e0e" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="873c1453-5fa5-45ce-9531-24feafc448e6" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="6bf4f9e2-6adc-4014-b6a4-e3e962116d6b" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="30431b9e-2a78-4e53-b1e3-c8ba88d0cfa2" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="bb128a80-41a3-4a61-9054-aaeca677496c" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="eeabb2ba-9d5f-436d-a063-2f89d4e42a48" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>Tap cycles your master mode (or toggles mining-laser type while mining); hold jumps straight to NAV. It also switches Joystick Gremlin's active layer to match.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="614078ee-3111-4ea4-930c-abe811664ffa" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>Routed to mouse X so you can free-look left and right in 3rd-person flight. The flat center curve suppresses idle stick drift so the camera holds still.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="7c583335-6548-436d-ab9a-17d71bc6d303" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="dbec7900-5933-463f-bd56-6850260a9357" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="b3377e60-a7b4-4b8c-8cdd-25df3343e2b5" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="44f3ac97-74ac-478d-a7db-025196ee508e" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+</library>
     <modes>
         <mode>SCM Mode</mode>
         <mode parent="SCM Mode">Auxiliary Mode</mode>
