@@ -3911,7 +3911,7 @@
         <action id="31827787-0c9c-47e9-bba5-15fab77aac74" type="change-mode">
             <property type="string">
                 <name>change-type</name>
-                <value>Cycle</value>
+                <value>Switch</value>
             </property>
             <target-mode>
                 <property type="string">
@@ -3925,7 +3925,7 @@
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
-                <value>both</value>
+                <value>release</value>
             </property>
         </action>
         <action id="97aa6d5f-a186-429c-b2ca-40e6b55373a9" type="map-to-vjoy">
@@ -4759,7 +4759,7 @@
         <action id="ee318112-b368-4165-83b1-40ed14358f24" type="change-mode">
             <property type="string">
                 <name>change-type</name>
-                <value>Cycle</value>
+                <value>Switch</value>
             </property>
             <target-mode>
                 <property type="string">
@@ -4773,7 +4773,7 @@
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
-                <value>both</value>
+                <value>press</value>
             </property>
         </action>
         <action id="814c736e-6e76-4fea-921a-719c34794029" type="map-to-vjoy">
@@ -4805,7 +4805,7 @@
         <action id="e2930cd1-a204-480f-a76e-62d8f3c8ae77" type="change-mode">
             <property type="string">
                 <name>change-type</name>
-                <value>Cycle</value>
+                <value>Switch</value>
             </property>
             <target-mode>
                 <property type="string">
@@ -4819,7 +4819,7 @@
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
-                <value>both</value>
+                <value>press</value>
             </property>
         </action>
         <action id="3e1b67ec-05ee-45e3-90c3-5710e709f406" type="map-to-vjoy">
@@ -4871,13 +4871,13 @@
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
-                <value>both</value>
+                <value>press</value>
             </property>
         </action>
         <action id="97376e21-fcaa-4151-b5bb-5e88695b244d" type="change-mode">
             <property type="string">
                 <name>change-type</name>
-                <value>Cycle</value>
+                <value>Switch</value>
             </property>
             <target-mode>
                 <property type="string">
@@ -4891,7 +4891,7 @@
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
-                <value>both</value>
+                <value>press</value>
             </property>
         </action>
         <action id="75038fc2-e37e-4395-9d52-5e216a352da3" type="map-to-vjoy">
@@ -8565,7 +8565,7 @@
         <action id="f0daac22-07f3-427f-8998-3dbedcc28b38" type="change-mode">
             <property type="string">
                 <name>change-type</name>
-                <value>Cycle</value>
+                <value>Switch</value>
             </property>
             <target-mode>
                 <property type="string">
@@ -8579,7 +8579,7 @@
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
-                <value>both</value>
+                <value>release</value>
             </property>
         </action>
         <action id="41006a78-4685-4c7b-951d-7f1005462202" type="map-to-vjoy">
@@ -8996,6 +8996,434 @@
             <property type="activation-mode">
                 <name>activation-mode</name>
                 <value>both</value>
+            </property>
+        </action>
+        <action id="2a24bd15-f459-41cf-8762-fed697156613" type="change-mode">
+            <property type="string">
+                <name>change-type</name>
+                <value>Switch</value>
+            </property>
+            <target-mode>
+                <property type="string">
+                    <name>name</name>
+                    <value>SCM Mode</value>
+                </property>
+            </target-mode>
+            <property type="string">
+                <name>action-label</name>
+                <value>Change Mode</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>press</value>
+            </property>
+        </action>
+        <action id="a6c58422-482c-4105-b95d-14d7b375ba14" type="change-mode">
+            <property type="string">
+                <name>change-type</name>
+                <value>Cycle</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Change Mode</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>press</value>
+            </property>
+        </action>
+        <action id="9db19771-c84d-4a0e-b6a3-f3d9a19524ae" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>None</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="55115bc6-685a-4567-8eb0-d49e78d65725" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>If your stick reports the 30-degree hat as a POV hat instead of four buttons, this converts it to button presses so the hat directions still work - nothing for you to set up.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="82cc7953-d8c7-41bd-bfc0-4cd87dc523dc" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>If your stick reports the 30-degree hat as a POV hat instead of four buttons, this converts it to button presses so the hat directions still work - nothing for you to set up.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="ed2bffba-599b-43a2-9a55-ca4d4c3eb5c7" type="map-to-vjoy">
+            <property type="int">
+                <name>vjoy-device-id</name>
+                <value>1</value>
+            </property>
+            <property type="int">
+                <name>vjoy-input-id</name>
+                <value>1</value>
+            </property>
+            <property type="input_type">
+                <name>vjoy-input-type</name>
+                <value>axis</value>
+            </property>
+            <property type="axis_mode">
+                <name>axis-mode</name>
+                <value>absolute</value>
+            </property>
+            <property type="float">
+                <name>axis-scaling</name>
+                <value>1.0</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Map to vJoy</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>both</value>
+            </property>
+        </action>
+        <action id="5facef16-2ce3-4842-9cd5-8e0fea93a637" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>None</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="69fd34e7-4ce0-4632-a4db-cb24407ce3ae" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>None</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="0f4663e3-7c0e-4503-a5cc-e5da098d665b" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>In Modifier mode the left mini-stick acts as four buttons - push it to toggle power to your weapons, shields, thrusters, and overall systems.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="9f1945d0-4095-4b0e-85a8-d214295e7d9c" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>In Modifier mode the left mini-stick acts as four buttons - push it to toggle power to your weapons, shields, thrusters, and overall systems.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="40d76149-8532-4a72-826c-238ebd3fb2e3" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>Hold the pinky lever to switch on the Modifier layer, a temporary shift that gives most buttons a second function while held. Release to return. Nothing is sent to the game; it only changes Joystick Gremlin's layer.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="7f6869ba-3bf2-4c92-8907-fa8bade76d85" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>Tap fires the normal Dock/Undock view toggle. Hold sends an F4+numpad keyboard chord to flip the docking camera, since Star Citizen won't let you bind that camera to a stick button.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="9bf46253-e303-4cde-807f-574815c6832f" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="aaf10232-1389-4cf7-9a3a-a03d2f28e6f9" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="d46d685f-8f3e-4fe2-916a-5edee0b28a2a" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="285191f3-e3db-4e4b-8db9-640b87859e0e" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="873c1453-5fa5-45ce-9531-24feafc448e6" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="6bf4f9e2-6adc-4014-b6a4-e3e962116d6b" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="30431b9e-2a78-4e53-b1e3-c8ba88d0cfa2" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="bb128a80-41a3-4a61-9054-aaeca677496c" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="eeabb2ba-9d5f-436d-a063-2f89d4e42a48" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>Tap cycles your master mode (or toggles mining-laser type while mining); hold jumps straight to NAV. It also switches Joystick Gremlin's active layer to match.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="614078ee-3111-4ea4-930c-abe811664ffa" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>Routed to mouse X so you can free-look left and right in 3rd-person flight. The flat center curve suppresses idle stick drift so the camera holds still.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="7c583335-6548-436d-ab9a-17d71bc6d303" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="dbec7900-5933-463f-bd56-6850260a9357" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="b3377e60-a7b4-4b8c-8cdd-25df3343e2b5" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="44f3ac97-74ac-478d-a7db-025196ee508e" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="f2487279-3550-4674-bad3-09dd33a5d970" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>In Modifier mode the right mini-stick acts as four buttons - push it to pin targets and raise individual shield faces (left, right, front, back).</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="2d9dbd0a-7a04-4d5b-9754-8334cef4b791" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>In Modifier mode the right mini-stick acts as four buttons - push it to pin targets and raise individual shield faces (left, right, front, back).</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="1e877ac2-723e-4013-a4fe-cb48693a2db5" type="description">
+            <property type="string">
+                <name>description</name>
+                <value>If your stick reports the 30-degree hat as a POV hat instead of four buttons, this converts it to button presses so the hat directions still work - nothing for you to set up.</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>Description</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
             </property>
         </action>
         <action id="bfc88ace-a0ce-4d0c-a2a2-ea1b7967f924" type="root">
@@ -9427,21 +9855,6 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="8b379eb6-ede5-4598-afbf-d4758391bc21" type="root">
-            <actions>
-                <action-id>7f6869ba-3bf2-4c92-8907-fa8bade76d85</action-id>
-                <action-id>026b5b0b-92ee-456b-8908-0656d3c2bd4f</action-id>
-                <action-id>487d7f33-154c-44f8-92cc-631b1648042e</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Tempo (Tap/Hold) Docking Fix</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="3e4c340a-596f-45f8-85de-2fd42151c2a8" type="root">
             <actions>
                 <action-id>5f29872e-97c8-4135-acf0-25de29173205</action-id>
@@ -9631,126 +10044,6 @@
             <property type="string">
                 <name>action-label</name>
                 <value>Root</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="36593e2f-7943-4e9f-a58f-32dc89091aaa" type="root">
-            <actions>
-                <action-id>1d6b23a3-bdbc-43a7-ac80-9b67afc8f1cb</action-id>
-                <action-id>31827787-0c9c-47e9-bba5-15fab77aac74</action-id>
-                <action-id>97aa6d5f-a186-429c-b2ca-40e6b55373a9</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Root</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="e0f8dffd-024c-42cd-84e2-def75ec5f07e" type="root">
-            <actions>
-                <action-id>37baef66-f0fd-4664-88b8-c6678006c41c</action-id>
-                <action-id>9bf46253-e303-4cde-807f-574815c6832f</action-id>
-                <action-id>5df9c7a0-70aa-4150-bede-8a02b228c1f4</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="4eefa79f-5683-4140-8daa-6c1feb6c28e5" type="root">
-            <actions>
-                <action-id>b5d720fc-aecb-44d9-9740-316216255275</action-id>
-                <action-id>d46d685f-8f3e-4fe2-916a-5edee0b28a2a</action-id>
-                <action-id>7069d952-905e-4a83-a5ed-dd2ab06752ec</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="c04793e0-49a7-4e80-822e-1a3567ce818c" type="root">
-            <actions>
-                <action-id>41357446-c665-4b4d-8c94-e6971bb4ff63</action-id>
-                <action-id>285191f3-e3db-4e4b-8db9-640b87859e0e</action-id>
-                <action-id>97f45469-f9b8-4e35-a615-dc47a91fb7ba</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="dbd38ebc-6eeb-4b87-a126-e557efffdb49" type="root">
-            <actions>
-                <action-id>460a282b-784b-4638-83bf-308211e3b9bd</action-id>
-                <action-id>873c1453-5fa5-45ce-9531-24feafc448e6</action-id>
-                <action-id>b47aa0fc-0bb8-448d-bdfd-497b089408c0</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="070ba68f-176a-45cd-91b6-49989c5dfbd3" type="root">
-            <actions>
-                <action-id>a7ce5dce-0be6-4e76-9cfe-a28a408c0212</action-id>
-                <action-id>6bf4f9e2-6adc-4014-b6a4-e3e962116d6b</action-id>
-                <action-id>bc76ce8a-ee8e-4298-8ae0-db92575f0507</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="133e25d1-5167-4f08-936a-27757584b3d8" type="root">
-            <actions>
-                <action-id>944fb141-060f-47a3-a42d-55e85b9ed4b2</action-id>
-                <action-id>30431b9e-2a78-4e53-b1e3-c8ba88d0cfa2</action-id>
-                <action-id>704b2c01-e3e5-4e1f-b42b-89a4ffe82cc9</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="fae244a3-a6af-461d-a4a1-7d5cb34463e1" type="root">
-            <actions>
-                <action-id>2b37a69a-579d-4fa1-8b13-dc05b830ed14</action-id>
-                <action-id>bb128a80-41a3-4a61-9054-aaeca677496c</action-id>
-                <action-id>c2041e1f-3867-450d-93c6-9a6952f5057f</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -10932,36 +11225,6 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="3f965ad5-4f0c-4a87-be00-a8150a01b6bf" type="root">
-            <actions>
-                <action-id>86ceff96-64d1-400e-b762-3e73118112a0</action-id>
-                <action-id>dbec7900-5933-463f-bd56-6850260a9357</action-id>
-                <action-id>5a304edd-665e-486f-ad99-2fc7459c20c2</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="992ec2a3-67b2-4938-b78a-3cd3cbf9fb52" type="root">
-            <actions>
-                <action-id>b8000887-52eb-4f67-8b72-e0f8a7fbe2e4</action-id>
-                <action-id>b3377e60-a7b4-4b8c-8cdd-25df3343e2b5</action-id>
-                <action-id>181cac68-add3-48c7-96be-df337a13386e</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="70f20cfe-15d1-4144-a321-025b65907db6" type="root">
             <actions>
                 <action-id>e59c962f-b010-47da-bd08-797a8322f37f</action-id>
@@ -11549,36 +11812,6 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="8ef8fd6e-88dd-4ea3-a825-47e4ca3e9e8d" type="root">
-            <actions>
-                <action-id>a6236fa2-2fe6-45b3-8e96-16128a3ee860</action-id>
-                <action-id>614078ee-3111-4ea4-930c-abe811664ffa</action-id>
-                <action-id>6b75c775-72ac-4995-9a6b-3e4e226f5228</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Axis to Mouse Axis (3rd Person Freelook)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="5f2f63a7-406a-417c-b092-1245bc17a148" type="root">
-            <actions>
-                <action-id>52499680-bb0b-4231-b8d2-0cab0889e330</action-id>
-                <action-id>44f3ac97-74ac-478d-a7db-025196ee508e</action-id>
-                <action-id>fda725db-6923-4798-a81f-3c970f9ef501</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="0e9305b5-2533-46ec-b225-0a52e90a2f22" type="root">
             <actions>
                 <action-id>d8f1994d-4634-4586-919f-e5ab06bc3a67</action-id>
@@ -11609,36 +11842,6 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="1f062625-3e7b-41e1-b118-35dc776b62ed" type="root">
-            <actions>
-                <action-id>94778fc4-a54f-4783-b73a-dd03409f43c2</action-id>
-                <action-id>7c583335-6548-436d-ab9a-17d71bc6d303</action-id>
-                <action-id>6e52cfba-0c7f-4c58-94a0-9fa758c3bb14</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="80400633-5d27-4d10-bed3-6c718f4445a6" type="root">
-            <actions>
-                <action-id>5ba40b88-b29a-4a92-87ab-7490e351386c</action-id>
-                <action-id>aaf10232-1389-4cf7-9a3a-a03d2f28e6f9</action-id>
-                <action-id>a7231eb9-5419-4249-b563-2a166a32386b</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Response Curve (For Inversion)</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="30494f94-f9a7-4c7c-aff0-9825227e20fe" type="root">
             <actions>
                 <action-id>b6bc9623-4f2e-445b-b276-3a313fea8fec</action-id>
@@ -11659,6 +11862,31 @@
             <long-actions>
                 <action-id>f0daac22-07f3-427f-8998-3dbedcc28b38</action-id>
                 <action-id>0e6a1ac2-8d6e-4be3-a6ef-5bea1f82e19a</action-id>
+            </long-actions>
+            <property type="float">
+                <name>threshold</name>
+                <value>0.5</value>
+            </property>
+            <property type="string">
+                <name>activate-on</name>
+                <value>release</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>L-SCROLL.press</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="69fc1c45-eaa4-4dce-a7ca-2429e8181f01" type="tempo">
+            <short-actions>
+                <action-id>1d6b23a3-bdbc-43a7-ac80-9b67afc8f1cb</action-id>
+            </short-actions>
+            <long-actions>
+                <action-id>31827787-0c9c-47e9-bba5-15fab77aac74</action-id>
+                <action-id>97aa6d5f-a186-429c-b2ca-40e6b55373a9</action-id>
             </long-actions>
             <property type="float">
                 <name>threshold</name>
@@ -11785,14 +12013,289 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="7988342f-b735-410a-a2ab-6d2b6b897e7b" type="root">
+        <action id="a28b93ee-7329-4cb4-bede-d7eb1ca4eb5f" type="root">
             <actions>
-                <action-id>1e877ac2-723e-4013-a4fe-cb48693a2db5</action-id>
-                <action-id>53311a32-f3d0-46b0-9cf8-f0ba475022c7</action-id>
+                <action-id>40d76149-8532-4a72-826c-238ebd3fb2e3</action-id>
+                <action-id>e6909903-dee7-4069-ba56-f5e0cfb487ef</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Hat To Buttons</value>
+                <value>Modifier</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="c7c94eab-c70a-40f3-8e08-eb2e4116a6f8" type="root">
+            <actions>
+                <action-id>9f1945d0-4095-4b0e-85a8-d214295e7d9c</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Mini-stick - Power</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="1635596e-bf28-4441-91e8-a91e9bd7aed4" type="root">
+            <actions>
+                <action-id>0f4663e3-7c0e-4503-a5cc-e5da098d665b</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Mini-stick - Power</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="8b379eb6-ede5-4598-afbf-d4758391bc21" type="root">
+            <actions>
+                <action-id>7f6869ba-3bf2-4c92-8907-fa8bade76d85</action-id>
+                <action-id>026b5b0b-92ee-456b-8908-0656d3c2bd4f</action-id>
+                <action-id>487d7f33-154c-44f8-92cc-631b1648042e</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Tempo (Tap/Hold) Docking Fix</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="e0f8dffd-024c-42cd-84e2-def75ec5f07e" type="root">
+            <actions>
+                <action-id>37baef66-f0fd-4664-88b8-c6678006c41c</action-id>
+                <action-id>9bf46253-e303-4cde-807f-574815c6832f</action-id>
+                <action-id>5df9c7a0-70aa-4150-bede-8a02b228c1f4</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="4eefa79f-5683-4140-8daa-6c1feb6c28e5" type="root">
+            <actions>
+                <action-id>b5d720fc-aecb-44d9-9740-316216255275</action-id>
+                <action-id>d46d685f-8f3e-4fe2-916a-5edee0b28a2a</action-id>
+                <action-id>7069d952-905e-4a83-a5ed-dd2ab06752ec</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="c04793e0-49a7-4e80-822e-1a3567ce818c" type="root">
+            <actions>
+                <action-id>41357446-c665-4b4d-8c94-e6971bb4ff63</action-id>
+                <action-id>285191f3-e3db-4e4b-8db9-640b87859e0e</action-id>
+                <action-id>97f45469-f9b8-4e35-a615-dc47a91fb7ba</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="dbd38ebc-6eeb-4b87-a126-e557efffdb49" type="root">
+            <actions>
+                <action-id>460a282b-784b-4638-83bf-308211e3b9bd</action-id>
+                <action-id>873c1453-5fa5-45ce-9531-24feafc448e6</action-id>
+                <action-id>b47aa0fc-0bb8-448d-bdfd-497b089408c0</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="070ba68f-176a-45cd-91b6-49989c5dfbd3" type="root">
+            <actions>
+                <action-id>a7ce5dce-0be6-4e76-9cfe-a28a408c0212</action-id>
+                <action-id>6bf4f9e2-6adc-4014-b6a4-e3e962116d6b</action-id>
+                <action-id>bc76ce8a-ee8e-4298-8ae0-db92575f0507</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="133e25d1-5167-4f08-936a-27757584b3d8" type="root">
+            <actions>
+                <action-id>944fb141-060f-47a3-a42d-55e85b9ed4b2</action-id>
+                <action-id>30431b9e-2a78-4e53-b1e3-c8ba88d0cfa2</action-id>
+                <action-id>704b2c01-e3e5-4e1f-b42b-89a4ffe82cc9</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="fae244a3-a6af-461d-a4a1-7d5cb34463e1" type="root">
+            <actions>
+                <action-id>2b37a69a-579d-4fa1-8b13-dc05b830ed14</action-id>
+                <action-id>bb128a80-41a3-4a61-9054-aaeca677496c</action-id>
+                <action-id>c2041e1f-3867-450d-93c6-9a6952f5057f</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="3f965ad5-4f0c-4a87-be00-a8150a01b6bf" type="root">
+            <actions>
+                <action-id>86ceff96-64d1-400e-b762-3e73118112a0</action-id>
+                <action-id>dbec7900-5933-463f-bd56-6850260a9357</action-id>
+                <action-id>5a304edd-665e-486f-ad99-2fc7459c20c2</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="992ec2a3-67b2-4938-b78a-3cd3cbf9fb52" type="root">
+            <actions>
+                <action-id>b8000887-52eb-4f67-8b72-e0f8a7fbe2e4</action-id>
+                <action-id>b3377e60-a7b4-4b8c-8cdd-25df3343e2b5</action-id>
+                <action-id>181cac68-add3-48c7-96be-df337a13386e</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="8ef8fd6e-88dd-4ea3-a825-47e4ca3e9e8d" type="root">
+            <actions>
+                <action-id>a6236fa2-2fe6-45b3-8e96-16128a3ee860</action-id>
+                <action-id>614078ee-3111-4ea4-930c-abe811664ffa</action-id>
+                <action-id>6b75c775-72ac-4995-9a6b-3e4e226f5228</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Axis to Mouse Axis (3rd Person Freelook)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="5f2f63a7-406a-417c-b092-1245bc17a148" type="root">
+            <actions>
+                <action-id>52499680-bb0b-4231-b8d2-0cab0889e330</action-id>
+                <action-id>44f3ac97-74ac-478d-a7db-025196ee508e</action-id>
+                <action-id>fda725db-6923-4798-a81f-3c970f9ef501</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="1f062625-3e7b-41e1-b118-35dc776b62ed" type="root">
+            <actions>
+                <action-id>94778fc4-a54f-4783-b73a-dd03409f43c2</action-id>
+                <action-id>7c583335-6548-436d-ab9a-17d71bc6d303</action-id>
+                <action-id>6e52cfba-0c7f-4c58-94a0-9fa758c3bb14</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="80400633-5d27-4d10-bed3-6c718f4445a6" type="root">
+            <actions>
+                <action-id>5ba40b88-b29a-4a92-87ab-7490e351386c</action-id>
+                <action-id>aaf10232-1389-4cf7-9a3a-a03d2f28e6f9</action-id>
+                <action-id>a7231eb9-5419-4249-b563-2a166a32386b</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Response Curve (For Inversion)</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="67aeb237-b9d5-4035-bc79-6767c6e5151e" type="root">
+            <actions>
+                <action-id>f2487279-3550-4674-bad3-09dd33a5d970</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Mini-stick - Targeting</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="05ea8ffd-cd1b-422a-91bf-d06f27773ce2" type="root">
+            <actions>
+                <action-id>2d9dbd0a-7a04-4d5b-9754-8334cef4b791</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Mini-stick - Targeting</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
+        <action id="36593e2f-7943-4e9f-a58f-32dc89091aaa" type="root">
+            <actions>
+                <action-id>69fc1c45-eaa4-4dce-a7ca-2429e8181f01</action-id>
+            </actions>
+            <property type="string">
+                <name>action-label</name>
+                <value>Root</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -11813,20 +12316,6 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="43bc3432-969f-469d-bf0a-730649ce3365" type="root">
-            <actions>
-                <action-id>eeabb2ba-9d5f-436d-a063-2f89d4e42a48</action-id>
-                <action-id>693167f5-15c5-4da2-968f-aaa6ac6db6af</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Tempo (Tap/Hold) MM</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="9dc18b72-2778-45d3-8957-afce5d209225" type="root">
             <actions>
                 <action-id>4791e3b8-4a30-412c-8ac7-46c6a1a23888</action-id>
@@ -11834,196 +12323,6 @@
             <property type="string">
                 <name>action-label</name>
                 <value>Root</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="2a24bd15-f459-41cf-8762-fed697156613" type="change-mode">
-            <property type="string">
-                <name>change-type</name>
-                <value>Switch</value>
-            </property>
-            <target-mode>
-                <property type="string">
-                    <name>name</name>
-                    <value>SCM Mode</value>
-                </property>
-            </target-mode>
-            <property type="string">
-                <name>action-label</name>
-                <value>Change Mode</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>press</value>
-            </property>
-        </action>
-        <action id="a6c58422-482c-4105-b95d-14d7b375ba14" type="change-mode">
-            <property type="string">
-                <name>change-type</name>
-                <value>Cycle</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Change Mode</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>press</value>
-            </property>
-        </action>
-        <action id="9db19771-c84d-4a0e-b6a3-f3d9a19524ae" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>None</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="55115bc6-685a-4567-8eb0-d49e78d65725" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>If your stick reports the 30-degree hat as a POV hat instead of four buttons, this converts it to button presses so the hat directions still work - nothing for you to set up.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="82cc7953-d8c7-41bd-bfc0-4cd87dc523dc" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>If your stick reports the 30-degree hat as a POV hat instead of four buttons, this converts it to button presses so the hat directions still work - nothing for you to set up.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="ed2bffba-599b-43a2-9a55-ca4d4c3eb5c7" type="map-to-vjoy">
-            <property type="int">
-                <name>vjoy-device-id</name>
-                <value>1</value>
-            </property>
-            <property type="int">
-                <name>vjoy-input-id</name>
-                <value>1</value>
-            </property>
-            <property type="input_type">
-                <name>vjoy-input-type</name>
-                <value>axis</value>
-            </property>
-            <property type="axis_mode">
-                <name>axis-mode</name>
-                <value>absolute</value>
-            </property>
-            <property type="float">
-                <name>axis-scaling</name>
-                <value>1.0</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Map to vJoy</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>both</value>
-            </property>
-        </action>
-        <action id="5facef16-2ce3-4842-9cd5-8e0fea93a637" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>None</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="69fd34e7-4ce0-4632-a4db-cb24407ce3ae" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>None</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="0f4663e3-7c0e-4503-a5cc-e5da098d665b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>In Modifier mode the left mini-stick acts as four buttons - push it to toggle power to your weapons, shields, thrusters, and overall systems.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="9f1945d0-4095-4b0e-85a8-d214295e7d9c" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>In Modifier mode the left mini-stick acts as four buttons - push it to toggle power to your weapons, shields, thrusters, and overall systems.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="40d76149-8532-4a72-826c-238ebd3fb2e3" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>Hold the pinky lever to switch on the Modifier layer, a temporary shift that gives most buttons a second function while held. Release to return. Nothing is sent to the game; it only changes Joystick Gremlin's layer.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="a28b93ee-7329-4cb4-bede-d7eb1ca4eb5f" type="root">
-            <actions>
-                <action-id>40d76149-8532-4a72-826c-238ebd3fb2e3</action-id>
-                <action-id>e6909903-dee7-4069-ba56-f5e0cfb487ef</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Modifier</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -12058,318 +12357,103 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="c7c94eab-c70a-40f3-8e08-eb2e4116a6f8" type="root">
+        <action id="7988342f-b735-410a-a2ab-6d2b6b897e7b" type="root">
             <actions>
-                <action-id>9f1945d0-4095-4b0e-85a8-d214295e7d9c</action-id>
+                <action-id>1e877ac2-723e-4013-a4fe-cb48693a2db5</action-id>
+                <action-id>53311a32-f3d0-46b0-9cf8-f0ba475022c7</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Mini-stick - Power</value>
+                <value>Hat To Buttons</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="1635596e-bf28-4441-91e8-a91e9bd7aed4" type="root">
+        <action id="43bc3432-969f-469d-bf0a-730649ce3365" type="root">
             <actions>
-                <action-id>0f4663e3-7c0e-4503-a5cc-e5da098d665b</action-id>
+                <action-id>eeabb2ba-9d5f-436d-a063-2f89d4e42a48</action-id>
+                <action-id>693167f5-15c5-4da2-968f-aaa6ac6db6af</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Mini-stick - Power</value>
+                <value>Tempo (Tap/Hold) MM</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
                 <value>disallowed</value>
             </property>
         </action>
-            <action id="7f6869ba-3bf2-4c92-8907-fa8bade76d85" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>Tap fires the normal Dock/Undock view toggle. Hold sends an F4+numpad keyboard chord to flip the docking camera, since Star Citizen won't let you bind that camera to a stick button.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="9bf46253-e303-4cde-807f-574815c6832f" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="aaf10232-1389-4cf7-9a3a-a03d2f28e6f9" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="d46d685f-8f3e-4fe2-916a-5edee0b28a2a" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="285191f3-e3db-4e4b-8db9-640b87859e0e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="873c1453-5fa5-45ce-9531-24feafc448e6" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="6bf4f9e2-6adc-4014-b6a4-e3e962116d6b" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="30431b9e-2a78-4e53-b1e3-c8ba88d0cfa2" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="bb128a80-41a3-4a61-9054-aaeca677496c" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="eeabb2ba-9d5f-436d-a063-2f89d4e42a48" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>Tap cycles your master mode (or toggles mining-laser type while mining); hold jumps straight to NAV. It also switches Joystick Gremlin's active layer to match.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="614078ee-3111-4ea4-930c-abe811664ffa" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>Routed to mouse X so you can free-look left and right in 3rd-person flight. The flat center curve suppresses idle stick drift so the camera holds still.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="7c583335-6548-436d-ab9a-17d71bc6d303" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="dbec7900-5933-463f-bd56-6850260a9357" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="b3377e60-a7b4-4b8c-8cdd-25df3343e2b5" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="44f3ac97-74ac-478d-a7db-025196ee508e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>A flat 1:1 response curve sits on this axis only so you can reverse its direction with Joystick Gremlin's Invert Curve button if your hardware reads it backwards. No other effect.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="67aeb237-b9d5-4035-bc79-6767c6e5151e" type="root">
-            <actions>
-                <action-id>f2487279-3550-4674-bad3-09dd33a5d970</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Mini-stick - Targeting</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="f2487279-3550-4674-bad3-09dd33a5d970" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>In Modifier mode the right mini-stick acts as four buttons - push it to pin targets and raise individual shield faces (left, right, front, back).</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="05ea8ffd-cd1b-422a-91bf-d06f27773ce2" type="root">
-            <actions>
-                <action-id>2d9dbd0a-7a04-4d5b-9754-8334cef4b791</action-id>
-            </actions>
-            <property type="string">
-                <name>action-label</name>
-                <value>Mini-stick - Targeting</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="2d9dbd0a-7a04-4d5b-9754-8334cef4b791" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>In Modifier mode the right mini-stick acts as four buttons - push it to pin targets and raise individual shield faces (left, right, front, back).</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="1e877ac2-723e-4013-a4fe-cb48693a2db5" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>If your stick reports the 30-degree hat as a POV hat instead of four buttons, this converts it to button presses so the hat directions still work - nothing for you to set up.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-</library>
+    </library>
     <modes>
         <mode>SCM Mode</mode>
         <mode parent="SCM Mode">Auxiliary Mode</mode>
         <mode parent="SCM Mode">Modifier</mode>
         <mode parent="SCM Mode">Nav Mode</mode>
     </modes>
-    <scripts/>
+    <scripts>
+        <script id="4e0bf4fc-0055-4d5d-8470-7ecddc054e73">
+            <property type="path">
+                <name>path</name>
+                <value>E:\06. Dev Projects\Joystick Gremlin\user_scripts\subliminal_mode_audio.py</value>
+            </property>
+            <property type="string">
+                <name>name</name>
+                <value>Instance 1</value>
+            </property>
+            <variable type="bool">
+                <property type="string">
+                    <name>name</name>
+                    <value>Enabled</value>
+                </property>
+                <property type="bool">
+                    <name>value</name>
+                    <value>True</value>
+                </property>
+            </variable>
+            <variable type="string">
+                <property type="string">
+                    <name>name</name>
+                    <value>HAL audio folder</value>
+                </property>
+                <property type="string">
+                    <name>value</name>
+                    <value>E:\06. Dev Projects\Subs-Curated-Bindings\[Enhanced] Dual VKB Gladiator NXT\Audio Files\Hal 9000</value>
+                </property>
+            </variable>
+            <variable type="int">
+                <property type="string">
+                    <name>name</name>
+                    <value>Variant chance (%)</value>
+                </property>
+                <property type="int">
+                    <name>value</name>
+                    <value>20</value>
+                </property>
+            </variable>
+            <variable type="int">
+                <property type="string">
+                    <name>name</name>
+                    <value>Volume (%)</value>
+                </property>
+                <property type="int">
+                    <name>value</name>
+                    <value>80</value>
+                </property>
+            </variable>
+            <variable type="bool">
+                <property type="string">
+                    <name>name</name>
+                    <value>Announce on activate</value>
+                </property>
+                <property type="bool">
+                    <name>value</name>
+                    <value>True</value>
+                </property>
+            </variable>
+        </script>
+    </scripts>
     <devices>
         <device>
             <device-id>141b1470-1081-11f0-8006-444553540000</device-id>
@@ -12378,6 +12462,10 @@
         <device>
             <device-id>6686f980-1082-11f0-8008-444553540000</device-id>
             <device-name>Sol-R [R] Flightstick</device-name>
+        </device>
+        <device>
+            <device-id>cbd05e70-101a-11f0-8002-444553540000</device-id>
+            <device-name>vJoy Device</device-name>
         </device>
     </devices>
 </profile>
