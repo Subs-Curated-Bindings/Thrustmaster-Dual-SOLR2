@@ -3241,7 +3241,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-MAIN-TRIGGER.stage1</value>
+                <value>MAIN-TRIGGER.stage1</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4187,7 +4187,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>L-Dail</value>
+                <value>L-Dial</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
