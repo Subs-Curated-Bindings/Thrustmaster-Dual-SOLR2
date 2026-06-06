@@ -6829,7 +6829,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-Slider-1</value>
+                <value>R-Slider</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6859,7 +6859,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>R-Slider-2</value>
+                <value>R-Dial</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
