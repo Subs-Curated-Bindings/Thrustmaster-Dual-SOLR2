@@ -3921,7 +3921,7 @@
             </target-mode>
             <property type="string">
                 <name>action-label</name>
-                <value>L-SCROLL.press Cycle into SCM mode.</value>
+                <value>L-SCROLL.press Switch to SCM mode.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -8316,62 +8316,6 @@
                 <value>disallowed</value>
             </property>
         </action>
-        <action id="2a3756ae-0f54-4c72-81a1-2df5a5aba07e" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>Axis to Buttons</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="0d1dcf31-bcc7-42cf-a5d4-386127c9e2e3" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>Axis to Buttons</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="347e6958-3649-4452-b59c-0a5e9137e410" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>None</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="0a9ddb43-b7ef-4d89-8354-a408d03be8b7" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>None</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="a82212a7-7506-4136-83c6-961718cc2c0e" type="description">
             <property type="string">
                 <name>description</name>
@@ -8998,54 +8942,6 @@
                 <value>both</value>
             </property>
         </action>
-        <action id="2a24bd15-f459-41cf-8762-fed697156613" type="change-mode">
-            <property type="string">
-                <name>change-type</name>
-                <value>Switch</value>
-            </property>
-            <target-mode>
-                <property type="string">
-                    <name>name</name>
-                    <value>SCM Mode</value>
-                </property>
-            </target-mode>
-            <property type="string">
-                <name>action-label</name>
-                <value>Change Mode</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>press</value>
-            </property>
-        </action>
-        <action id="a6c58422-482c-4105-b95d-14d7b375ba14" type="change-mode">
-            <property type="string">
-                <name>change-type</name>
-                <value>Cycle</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Change Mode</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>press</value>
-            </property>
-        </action>
-        <action id="9db19771-c84d-4a0e-b6a3-f3d9a19524ae" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>None</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
         <action id="55115bc6-685a-4567-8eb0-d49e78d65725" type="description">
             <property type="string">
                 <name>description</name>
@@ -9064,64 +8960,6 @@
             <property type="string">
                 <name>description</name>
                 <value>If your stick reports the 30-degree hat as a POV hat instead of four buttons, this converts it to button presses so the hat directions still work - nothing for you to set up.</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="ed2bffba-599b-43a2-9a55-ca4d4c3eb5c7" type="map-to-vjoy">
-            <property type="int">
-                <name>vjoy-device-id</name>
-                <value>1</value>
-            </property>
-            <property type="int">
-                <name>vjoy-input-id</name>
-                <value>1</value>
-            </property>
-            <property type="input_type">
-                <name>vjoy-input-type</name>
-                <value>axis</value>
-            </property>
-            <property type="axis_mode">
-                <name>axis-mode</name>
-                <value>absolute</value>
-            </property>
-            <property type="float">
-                <name>axis-scaling</name>
-                <value>1.0</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Map to vJoy</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>both</value>
-            </property>
-        </action>
-        <action id="5facef16-2ce3-4842-9cd5-8e0fea93a637" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>None</value>
-            </property>
-            <property type="string">
-                <name>action-label</name>
-                <value>Description</value>
-            </property>
-            <property type="activation-mode">
-                <name>activation-mode</name>
-                <value>disallowed</value>
-            </property>
-        </action>
-        <action id="69fd34e7-4ce0-4632-a4db-cb24407ce3ae" type="description">
-            <property type="string">
-                <name>description</name>
-                <value>None</value>
             </property>
             <property type="string">
                 <name>action-label</name>
