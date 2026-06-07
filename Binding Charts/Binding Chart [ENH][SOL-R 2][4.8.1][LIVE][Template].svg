@@ -301,18 +301,10 @@
                 </g>
             </g>
             <g id="bind.L-THROTTLE" transform="matrix(1,0,0,1,8.5157,-50.1749)">
-                <g>
-                    <g transform="matrix(0.24,0,0,0.24,0,0)">
-                        <path d="M3939.129,7825.712L3854.059,7825.712L3965.347,7714.425L4076.634,7825.712L3991.591,7825.712L3991.529,8270.862L4076.634,8270.862L3965.347,8382.145L3854.059,8270.862L3939.066,8270.862L3939.129,7825.712Z" style="fill:white;"/>
-                    </g>
-                    <g transform="matrix(1,0,0,1,950.7436,1976.1353)">
-                        <path d="M0,-48.158L-48.158,0L-168.074,0" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:4px;"/>
-                    </g>
-                    <g transform="matrix(1,0,0,1,953.8026,1886.8211)">
-                        <path d="M0,48.158L-48.158,0L-168.074,0" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:4px;"/>
-                    </g>
+                <g transform="matrix(0.24,0,0,0.24,0,0)">
+                    <path d="M3939.129,7825.712L3854.059,7825.712L3965.347,7714.425L4076.634,7825.712L3991.591,7825.712L3991.529,8270.862L4076.634,8270.862L3965.347,8382.145L3854.059,8270.862L3939.066,8270.862L3939.129,7825.712Z" style="fill:white;"/>
                 </g>
-                <g transform="matrix(1,0,0,1,-1605.0082,662.5043)">
+                <g transform="matrix(1,0,0,1,-1605.0082,659.1136)">
                     <g transform="matrix(36,0,0,36,2736.2564,1285.9208)">
                     </g>
                     <text x="2583.4px" y="1285.921px" style="font-family:'Khand-Bold', 'Khand';font-weight:700;font-size:36px;fill:rgb(255,143,48);">L-THROTTLE</text>
@@ -1047,21 +1039,13 @@
                 </g>
             </g>
             <g id="label.R-THROTTLE" transform="matrix(1,0,0,1,4.32615,-96.0455)">
-                <g>
-                    <g transform="matrix(0.24,0,0,0.24,0,0)">
-                        <path d="M12075.896,7918.237L11990.826,7918.237L12102.114,7806.95L12213.401,7918.237L12128.358,7918.237L12128.296,8363.387L12213.401,8363.387L12102.114,8474.67L11990.826,8363.387L12075.833,8363.387L12075.896,7918.237Z" style="fill:white;"/>
-                    </g>
-                    <g transform="matrix(1,0,0,1,2903.5676,1976.0419)">
-                        <path d="M0,-48.158L-48.158,0L-168.074,0" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:4px;"/>
-                    </g>
-                    <g transform="matrix(1,0,0,1,2906.6267,1942.4886)">
-                        <path d="M0,48.158L48.158,0L168.074,0" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:4px;"/>
-                    </g>
+                <g transform="matrix(0.24,0,0,0.24,0,0)">
+                    <path d="M12075.896,7918.237L11990.826,7918.237L12102.114,7806.95L12213.401,7918.237L12128.358,7918.237L12128.296,8363.387L12213.401,8363.387L12102.114,8474.67L11990.826,8363.387L12075.833,8363.387L12075.896,7918.237Z" style="fill:white;"/>
                 </g>
-                <g transform="matrix(1,0,0,1,95.054297,623.2611)">
-                    <g transform="matrix(36,0,0,36,2739.6764,1285.9208)">
+                <g transform="matrix(1,0,0,1,126.3239,681.3196)">
+                    <g transform="matrix(36,0,0,36,2751.4744,1285.9208)">
                     </g>
-                    <text x="2583.4px" y="1285.921px" style="font-family:'Khand-Bold', 'Khand';font-weight:700;font-size:36px;fill:rgb(255,143,48);">R-THROTTLE</text>
+                    <text x="2595.198px" y="1285.921px" style="font-family:'Khand-Bold', 'Khand';font-weight:700;font-size:36px;fill:rgb(255,143,48);">R-THROTTLE</text>
                 </g>
             </g>
             <g id="bind.RL-BTNS">
