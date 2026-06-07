@@ -50,12 +50,16 @@
                     <g transform="matrix(1,0,0,1,1789.0731,901.8893)">
                         <path d="M149.309,183.447L-464.443,183.447C-555.588,181.57 -654.823,49.777 -747.629,0" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:4px;"/>
                     </g>
-                    <g id="bind.MAIN-TRIG-L" transform="matrix(36,0,0,36,1793.1157,1073.6963)">
+                    <g id="bind.MAIN-TRIG-L" transform="matrix(1,0,0,1,144.665199,2.4121)">
+                        <g transform="matrix(36,0,0,36,1793.1157,1073.6963)">
+                        </g>
+                        <text x="1585.324px" y="1073.696px" style="font-family:'Khand-Bold', 'Khand';font-weight:700;font-size:36px;fill:rgb(255,143,48);">L-MAIN TRIGGER</text>
                     </g>
-                    <text x="1585.324px" y="1073.696px" style="font-family:'Khand-Bold', 'Khand';font-weight:700;font-size:36px;fill:rgb(255,143,48);">L-MAIN TRIGGER</text>
-                    <g id="bind.RAPID-TRIG-L" transform="matrix(36,0,0,36,1551.7179,1076.1084)">
+                    <g id="bind.RAPID-TRIG-L" transform="matrix(1,0,0,1,144.665199,0)">
+                        <g transform="matrix(36,0,0,36,1551.7179,1076.1084)">
+                        </g>
+                        <text x="1334.422px" y="1076.108px" style="font-family:'Khand-Bold', 'Khand';font-weight:700;font-size:36px;fill:rgb(255,143,48);">L-RAPID TRIGGER</text>
                     </g>
-                    <text x="1334.422px" y="1076.108px" style="font-family:'Khand-Bold', 'Khand';font-weight:700;font-size:36px;fill:rgb(255,143,48);">L-RAPID TRIGGER</text>
                 </g>
             </g>
             <g transform="matrix(1,0,0,1,-1953.0963,0)">
@@ -566,14 +570,14 @@
         <g id="Right-Stick" serif:id="Right Stick">
             <g transform="matrix(1,0,0,1,9.968276,-31.2485)">
                 <g>
-                    <g id="bind.MAIN-TRIG-R" transform="matrix(1,0,0,1.155053,0,-122.228669)">
+                    <g id="bind.MAIN-TRIG-R" transform="matrix(1,0,0,1.155053,-151.076301,-121.286871)">
                         <g transform="matrix(1,0,0,0.865761,29.386849,63.143959)">
                             <g transform="matrix(36,0,0,36,2263.7198,1127.0001)">
                             </g>
                             <text x="2052.508px" y="1127px" style="font-family:'Khand-Bold', 'Khand';font-weight:700;font-size:36px;fill:rgb(255,143,48);">R-MAIN TRIGGER</text>
                         </g>
                     </g>
-                    <g transform="matrix(1,0,0,1,19.907221,0.926195)">
+                    <g transform="matrix(1,0,0,1,-131.16908,0.926195)">
                         <g transform="matrix(36,0,0,36,2560.3488,1077.1475)">
                         </g>
                         <text x="2339.633px" y="1077.147px" style="font-family:'Khand-Bold', 'Khand';font-weight:700;font-size:36px;fill:rgb(255,143,48);">R-RAPID TRIGGER</text>
