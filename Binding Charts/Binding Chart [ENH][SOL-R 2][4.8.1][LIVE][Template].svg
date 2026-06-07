@@ -22,7 +22,7 @@
         <g id="Footer">
         </g>
         <g id="Left-Stick" serif:id="Left Stick">
-            <g>
+            <g transform="matrix(1,0,0,1,79.06745,80.62015)">
                 <g id="bind.PINKY-L">
                     <g>
                         <g>
@@ -583,7 +583,7 @@
                     </g>
                 </g>
             </g>
-            <g>
+            <g transform="matrix(1,0,0,1,-7.401253,25.292)">
                 <g id="bind.PINKY-R">
                     <g>
                         <g transform="matrix(1,0,0,1,2470.3491,1403.7252)">
