@@ -11,7 +11,7 @@
                 <behavior>button</behavior>
                 <virtual-button>
                     <lower-limit>-1.0</lower-limit>
-                    <upper-limit>-1.0</upper-limit>
+                    <upper-limit>-0.95</upper-limit>
                     <axis-button-direction>anywhere</axis-button-direction>
                 </virtual-button>
             </action-configuration>
@@ -39,7 +39,7 @@
                 <behavior>button</behavior>
                 <virtual-button>
                     <lower-limit>-1.0</lower-limit>
-                    <upper-limit>-1.0</upper-limit>
+                    <upper-limit>-0.95</upper-limit>
                     <axis-button-direction>anywhere</axis-button-direction>
                 </virtual-button>
             </action-configuration>
@@ -1067,7 +1067,7 @@
                 <behavior>button</behavior>
                 <virtual-button>
                     <lower-limit>-1.0</lower-limit>
-                    <upper-limit>-1.0</upper-limit>
+                    <upper-limit>-0.95</upper-limit>
                     <axis-button-direction>anywhere</axis-button-direction>
                 </virtual-button>
             </action-configuration>
@@ -1094,8 +1094,8 @@
                 <root-action>6f9a83bc-b149-4348-aa35-14d84b572742</root-action>
                 <behavior>button</behavior>
                 <virtual-button>
-                    <lower-limit>-0.95</lower-limit>
-                    <upper-limit>-1.0</upper-limit>
+                    <lower-limit>-1.0</lower-limit>
+                    <upper-limit>-0.95</upper-limit>
                     <axis-button-direction>anywhere</axis-button-direction>
                 </virtual-button>
             </action-configuration>
@@ -3241,7 +3241,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>MAIN-TRIGGER.stage1</value>
+                <value>L-MAIN-TRIGGER.stage1</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3267,7 +3267,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>MAIN-TRIGGER.stage2</value>
+                <value>L-MAIN-TRIGGER.stage2</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3621,7 +3621,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>BTN.35</value>
+                <value>L-BTN.35</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -3725,7 +3725,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>BTN.39</value>
+                <value>L-BTN.39</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4939,7 +4939,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>MAIN-TRIGGER.stage1</value>
+                <value>L-MAIN-TRIGGER.stage1</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -4965,7 +4965,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>MAIN-TRIGGER.stage2</value>
+                <value>L-MAIN-TRIGGER.stage2</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5193,7 +5193,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>BTN.35</value>
+                <value>L-BTN.35</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -5271,7 +5271,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>BTN.39</value>
+                <value>L-BTN.39</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6129,7 +6129,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>MAIN-TRIGGER.stage1</value>
+                <value>R-MAIN-TRIGGER.stage1</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6155,7 +6155,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>MAIN-TRIGGER.stage2</value>
+                <value>R-MAIN-TRIGGER.stage2</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6415,7 +6415,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>BTN.35</value>
+                <value>R-BTN.35</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -6519,7 +6519,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>BTN.39</value>
+                <value>R-BTN.39</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -7483,7 +7483,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>MAIN-TRIGGER.stage1</value>
+                <value>R-MAIN-TRIGGER.stage1</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -7509,7 +7509,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>MAIN-TRIGGER.stage2</value>
+                <value>R-MAIN-TRIGGER.stage2</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -7769,7 +7769,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>BTN.35</value>
+                <value>R-BTN.35</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -7873,7 +7873,7 @@
             </property>
             <property type="string">
                 <name>action-label</name>
-                <value>BTN.39</value>
+                <value>R-BTN.39</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
