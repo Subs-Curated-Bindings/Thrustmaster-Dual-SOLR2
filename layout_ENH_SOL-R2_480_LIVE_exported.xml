@@ -264,6 +264,9 @@
   <action name="v_ifcs_toggle_gforce_safety">
    <rebind input="js1_button24"/>
   </action>
+  <action name="v_ifcs_vector_decoupling_toggle">
+   <rebind input="js2_button78"/>
+  </action>
   <action name="v_master_mode_cycle_long">
    <rebind input="js1_button36"/>
   </action>
@@ -554,7 +557,7 @@
    <rebind input="js2_button24"/>
   </action>
   <action name="v_toggle_mining_laser_type">
-   <rebind input="js1_button36"/>
+   <rebind input="js2_button36"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_salvage">
@@ -580,7 +583,7 @@
    <rebind input="js2_button39"/>
   </action>
   <action name="v_salvage_cycle_modifiers_structural">
-   <rebind input="js2_ "/>
+   <rebind input="js1_button36"/>
   </action>
   <action name="v_salvage_decrease_beam_spacing">
    <rebind input="js1_button10"/>
@@ -604,7 +607,7 @@
    <rebind input="js1_button9"/>
   </action>
   <action name="v_salvage_reset_gimbal">
-   <rebind input="js1_button19" activationMode="double_tap"/>
+   <rebind input="js1_button36" activationMode="double_tap"/>
   </action>
   <action name="v_salvage_toggle_beam_spacing_axis">
    <rebind input="js1_button11"/>
@@ -645,7 +648,7 @@
    <rebind input="js2_button4"/>
   </action>
   <action name="turret_toggle_mouse_mode">
-   <rebind input="js1_button54"/>
+   <rebind input="js1_button7"/>
   </action>
   <action name="turret_yaw">
    <rebind input="js2_x"/>
@@ -1190,7 +1193,7 @@
    <rebind input="js2_ "/>
   </action>
   <action name="v_view_dynamic_zoom_abs_toggle">
-   <rebind input="js1_button7"/>
+   <rebind input="js1_button33"/>
   </action>
   <action name="v_view_dynamic_zoom_rel">
    <rebind input="js2_ "/>
