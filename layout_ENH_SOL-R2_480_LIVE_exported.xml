@@ -659,7 +659,7 @@
    <rebind input="js1_button8" activationMode="double_tap"/>
   </action>
   <action name="turret_esp_toggle">
-   <rebind input="js1_button5" activationMode="double_tap"/>
+   <rebind input="js1_button5"/>
   </action>
   <action name="turret_limiter_abs">
    <rebind input="js1_z"/>
@@ -1134,7 +1134,7 @@
    <rebind input="js1_button13" activationMode="double_tap"/>
   </action>
   <action name="v_toggle_all_doors">
-   <rebind input="js1_button14" activationMode="double_tap"/>
+   <rebind input="js1_button4" activationMode="double_tap"/>
   </action>
   <action name="v_toggle_all_portlocks">
    <rebind input="js1_button15" activationMode="double_tap"/>
