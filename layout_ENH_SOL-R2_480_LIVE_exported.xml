@@ -118,7 +118,7 @@
    <rebind input="js1_button12"/>
   </action>
   <action name="v_unlock_all_ports">
-   <rebind input="js1_button12"/>
+   <rebind input="js1_button14"/>
   </action>
  </actionmap>
  <actionmap name="vehicle_mfd">
@@ -216,6 +216,9 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_movement">
+  <action name="v_vtol_toggle">
+   <rebind input="js1_button18"/>
+  </action>
   <action name="v_accel_range_down">
    <rebind input="js1_button94"/>
   </action>
@@ -628,7 +631,7 @@
    <rebind input="js2_ "/>
   </action>
   <action name="v_salvage_toggle_gimbal_mode">
-   <rebind input="js1_button19"/>
+   <rebind input="js1_button36"/>
   </action>
  </actionmap>
  <actionmap name="turret_movement">
