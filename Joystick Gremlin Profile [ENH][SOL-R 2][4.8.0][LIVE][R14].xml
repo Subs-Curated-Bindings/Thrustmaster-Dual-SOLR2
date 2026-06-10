@@ -3495,7 +3495,31 @@
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
-                <value>both</value>
+                <value>press</value>
+            </property>
+        </action>
+        <action id="bc5fd3c1-f975-4766-a13a-dc69248ef20a" type="tempo">
+            <short-actions>
+                <action-id>026b5b0b-92ee-456b-8908-0656d3c2bd4f</action-id>
+            </short-actions>
+            <long-actions>
+                <action-id>487d7f33-154c-44f8-92cc-631b1648042e</action-id>
+            </long-actions>
+            <property type="float">
+                <name>threshold</name>
+                <value>0.5</value>
+            </property>
+            <property type="string">
+                <name>activate-on</name>
+                <value>release</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>L30.press</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
             </property>
         </action>
         <action id="5f29872e-97c8-4135-acf0-25de29173205" type="map-to-vjoy">
@@ -9015,7 +9039,7 @@
         <action id="7f6869ba-3bf2-4c92-8907-fa8bade76d85" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Tap fires the normal Dock/Undock view toggle. Hold sends an F4+numpad keyboard chord to reset freelook, since Star Citizen won't let you bind that action to a stick button.</value>
+                <value>Tap resets the bomb-alignment HUD range. Hold sends an F4+numpad-* keyboard chord to reset freelook, since Star Citizen won't let you bind that action to a stick button.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
@@ -11894,12 +11918,11 @@
         <action id="8b379eb6-ede5-4598-afbf-d4758391bc21" type="root">
             <actions>
                 <action-id>7f6869ba-3bf2-4c92-8907-fa8bade76d85</action-id>
-                <action-id>026b5b0b-92ee-456b-8908-0656d3c2bd4f</action-id>
-                <action-id>487d7f33-154c-44f8-92cc-631b1648042e</action-id>
+                <action-id>bc5fd3c1-f975-4766-a13a-dc69248ef20a</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
-                <value>Tempo (Tap/Hold) Docking Fix</value>
+                <value>Tempo (Tap/Hold) Reset Bomb Range / Reset Freelook</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>

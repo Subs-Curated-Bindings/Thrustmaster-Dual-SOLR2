@@ -380,7 +380,7 @@
  </actionmap>
  <actionmap name="spaceship_docking">
   <action name="v_dock_toggle_view">
-   <rebind input="js1_button80"/>
+   <rebind input="js1_button83"/>
   </action>
   <action name="v_invoke_docking">
    <rebind input="js1_button35"/>
@@ -729,7 +729,7 @@
  </actionmap>
  <actionmap name="spaceship_missiles">
   <action name="v_weapon_bombing_hud_range_decrease">
-   <rebind input="js1_button83"/>
+   <rebind input="js1_button84"/>
   </action>
   <action name="v_weapon_bombing_hud_range_increase">
    <rebind input="js1_button82"/>
