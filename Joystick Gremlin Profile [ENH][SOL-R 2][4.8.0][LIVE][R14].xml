@@ -3429,50 +3429,46 @@
                     <value>True</value>
                 </property>
             </macro-action>
-            <macro-action type="pause">
-                <property type="float">
-                    <name>duration</name>
-                    <value>0.2</value>
-                </property>
-            </macro-action>
-            <macro-action type="key">
+            <macro-action type="vjoy">
                 <property type="int">
-                    <name>scan-code</name>
-                    <value>55</value>
+                    <name>vjoy-id</name>
+                    <value>1</value>
+                </property>
+                <property type="input_type">
+                    <name>input-type</name>
+                    <value>button</value>
+                </property>
+                <property type="int">
+                    <name>input-id</name>
+                    <value>30</value>
                 </property>
                 <property type="bool">
-                    <name>is-extended</name>
-                    <value>False</value>
-                </property>
-                <property type="bool">
-                    <name>is-pressed</name>
+                    <name>value</name>
                     <value>True</value>
                 </property>
             </macro-action>
             <macro-action type="pause">
                 <property type="float">
                     <name>duration</name>
-                    <value>0.01</value>
+                    <value>0.5</value>
                 </property>
             </macro-action>
-            <macro-action type="key">
+            <macro-action type="vjoy">
                 <property type="int">
-                    <name>scan-code</name>
-                    <value>55</value>
+                    <name>vjoy-id</name>
+                    <value>1</value>
+                </property>
+                <property type="input_type">
+                    <name>input-type</name>
+                    <value>button</value>
+                </property>
+                <property type="int">
+                    <name>input-id</name>
+                    <value>30</value>
                 </property>
                 <property type="bool">
-                    <name>is-extended</name>
+                    <name>value</name>
                     <value>False</value>
-                </property>
-                <property type="bool">
-                    <name>is-pressed</name>
-                    <value>False</value>
-                </property>
-            </macro-action>
-            <macro-action type="pause">
-                <property type="float">
-                    <name>duration</name>
-                    <value>0.2</value>
                 </property>
             </macro-action>
             <macro-action type="key">
@@ -3491,7 +3487,7 @@
             </macro-action>
             <property type="string">
                 <name>action-label</name>
-                <value>L30.press "Reset Freelook | Camera" F4 + numpad-* keyboard chord -- bound for an unrebindable in-game action.</value>
+                <value>L30.press "Reset Freelook | Camera" Holds F4 + the freelook vJoy button (30) for 0.5s to recenter.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -9039,7 +9035,7 @@
         <action id="7f6869ba-3bf2-4c92-8907-fa8bade76d85" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Tap resets the bomb-alignment HUD range. Hold sends an F4+numpad-* keyboard chord to reset freelook, since Star Citizen won't let you bind that action to a stick button.</value>
+                <value>Tap resets the bomb-alignment HUD range. Hold recenters freelook by holding F4 + the freelook vJoy button for 0.5s, since Star Citizen won't let you bind freelook recenter to a stick button.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
