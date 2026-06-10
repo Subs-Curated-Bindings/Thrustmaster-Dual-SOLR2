@@ -567,6 +567,9 @@
   <action name="v_salvage_beam_spacing_abs">
    <rebind input="js1_z"/>
   </action>
+  <action name="v_salvage_beam_spacing_rel">
+   <rebind input="js1_rotx"/>
+  </action>
   <action name="v_salvage_cycle_modifiers_focused">
    <rebind input="js2_button86"/>
   </action>
@@ -1457,6 +1460,9 @@
   </action>
   <action name="view_fstop_out">
    <rebind input="js2_ "/>
+  </action>
+  <action name="view_restore_defaults">
+   <rebind input="js1_button80"/>
   </action>
  </actionmap>
 </ActionMaps>
