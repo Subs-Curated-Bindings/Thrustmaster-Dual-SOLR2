@@ -3491,7 +3491,7 @@
             </macro-action>
             <property type="string">
                 <name>action-label</name>
-                <value>L30.press "Toggle Docking Camera | Camera" F4 + numpad-* keyboard chord -- bound for an unrebindable in-game action.</value>
+                <value>L30.press "Reset Freelook | Camera" F4 + numpad-* keyboard chord -- bound for an unrebindable in-game action.</value>
             </property>
             <property type="activation-mode">
                 <name>activation-mode</name>
@@ -9015,7 +9015,7 @@
         <action id="7f6869ba-3bf2-4c92-8907-fa8bade76d85" type="description">
             <property type="string">
                 <name>description</name>
-                <value>Tap fires the normal Dock/Undock view toggle. Hold sends an F4+numpad keyboard chord to flip the docking camera, since Star Citizen won't let you bind that camera to a stick button.</value>
+                <value>Tap fires the normal Dock/Undock view toggle. Hold sends an F4+numpad keyboard chord to reset freelook, since Star Citizen won't let you bind that action to a stick button.</value>
             </property>
             <property type="string">
                 <name>action-label</name>
