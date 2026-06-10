@@ -8451,7 +8451,7 @@
         <action id="b6bc9623-4f2e-445b-b276-3a313fea8fec" type="map-to-vjoy">
             <property type="int">
                 <name>vjoy-device-id</name>
-                <value>2</value>
+                <value>1</value>
             </property>
             <property type="int">
                 <name>vjoy-input-id</name>
