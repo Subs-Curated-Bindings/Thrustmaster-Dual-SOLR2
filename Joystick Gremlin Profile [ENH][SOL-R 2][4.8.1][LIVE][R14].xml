@@ -12361,68 +12361,7 @@
         <mode parent="SCM Mode">Modifier</mode>
         <mode parent="SCM Mode">Nav Mode</mode>
     </modes>
-    <scripts>
-        <script id="4e0bf4fc-0055-4d5d-8470-7ecddc054e73">
-            <property type="path">
-                <name>path</name>
-                <value>E:\06. Dev Projects\Joystick Gremlin\user_scripts\subliminal_mode_audio.py</value>
-            </property>
-            <property type="string">
-                <name>name</name>
-                <value>Instance 1</value>
-            </property>
-            <variable type="bool">
-                <property type="string">
-                    <name>name</name>
-                    <value>Enabled</value>
-                </property>
-                <property type="bool">
-                    <name>value</name>
-                    <value>True</value>
-                </property>
-            </variable>
-            <variable type="string">
-                <property type="string">
-                    <name>name</name>
-                    <value>HAL audio folder</value>
-                </property>
-                <property type="string">
-                    <name>value</name>
-                    <value>E:\06. Dev Projects\Subs-Curated-Bindings\[Enhanced] Dual VKB Gladiator NXT\Audio Files\Hal 9000</value>
-                </property>
-            </variable>
-            <variable type="int">
-                <property type="string">
-                    <name>name</name>
-                    <value>Variant chance (%)</value>
-                </property>
-                <property type="int">
-                    <name>value</name>
-                    <value>20</value>
-                </property>
-            </variable>
-            <variable type="int">
-                <property type="string">
-                    <name>name</name>
-                    <value>Volume (%)</value>
-                </property>
-                <property type="int">
-                    <name>value</name>
-                    <value>80</value>
-                </property>
-            </variable>
-            <variable type="bool">
-                <property type="string">
-                    <name>name</name>
-                    <value>Announce on activate</value>
-                </property>
-                <property type="bool">
-                    <name>value</name>
-                    <value>True</value>
-                </property>
-            </variable>
-        </script>
-    </scripts>
+    <scripts/>
     <devices>
         <device>
             <device-id>141b1470-1081-11f0-8006-444553540000</device-id>
