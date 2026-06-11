@@ -10342,9 +10342,121 @@
                 <value>disallowed</value>
             </property>
         </action>
+        <action id="dd980bf5-1fc8-4581-ad5b-5fb0728fd4ec" type="macro">
+            <property type="bool">
+                <name>is-exclusive</name>
+                <value>False</value>
+            </property>
+            <property type="string">
+                <name>repeat-mode</name>
+                <value>Single</value>
+            </property>
+            <property type="int">
+                <name>repeat-count</name>
+                <value>1</value>
+            </property>
+            <property type="float">
+                <name>repeat-delay</name>
+                <value>0.1</value>
+            </property>
+            <macro-action type="key">
+                <property type="int">
+                    <name>scan-code</name>
+                    <value>56</value>
+                </property>
+                <property type="bool">
+                    <name>is-extended</name>
+                    <value>True</value>
+                </property>
+                <property type="bool">
+                    <name>is-pressed</name>
+                    <value>True</value>
+                </property>
+            </macro-action>
+            <macro-action type="key">
+                <property type="int">
+                    <name>scan-code</name>
+                    <value>49</value>
+                </property>
+                <property type="bool">
+                    <name>is-extended</name>
+                    <value>False</value>
+                </property>
+                <property type="bool">
+                    <name>is-pressed</name>
+                    <value>True</value>
+                </property>
+            </macro-action>
+            <macro-action type="pause">
+                <property type="float">
+                    <name>duration</name>
+                    <value>0.05</value>
+                </property>
+            </macro-action>
+            <macro-action type="key">
+                <property type="int">
+                    <name>scan-code</name>
+                    <value>49</value>
+                </property>
+                <property type="bool">
+                    <name>is-extended</name>
+                    <value>False</value>
+                </property>
+                <property type="bool">
+                    <name>is-pressed</name>
+                    <value>False</value>
+                </property>
+            </macro-action>
+            <macro-action type="key">
+                <property type="int">
+                    <name>scan-code</name>
+                    <value>56</value>
+                </property>
+                <property type="bool">
+                    <name>is-extended</name>
+                    <value>True</value>
+                </property>
+                <property type="bool">
+                    <name>is-pressed</name>
+                    <value>False</value>
+                </property>
+            </macro-action>
+            <property type="string">
+                <name>action-label</name>
+                <value>L-BTN.35.hold "Dock/Undock | Flight Control" Brief Right Alt+N tap (50ms chord) -- SC docking toggle</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>press</value>
+            </property>
+        </action>
+        <action id="0b4e5435-559b-4a37-be20-0fe284535ee6" type="tempo">
+            <short-actions>
+                <action-id>6d067888-e2da-45c1-9a01-5147bb9bbd5c</action-id>
+            </short-actions>
+            <long-actions>
+                <action-id>dd980bf5-1fc8-4581-ad5b-5fb0728fd4ec</action-id>
+            </long-actions>
+            <property type="float">
+                <name>threshold</name>
+                <value>0.5</value>
+            </property>
+            <property type="string">
+                <name>activate-on</name>
+                <value>release</value>
+            </property>
+            <property type="string">
+                <name>action-label</name>
+                <value>L-BTN.35</value>
+            </property>
+            <property type="activation-mode">
+                <name>activation-mode</name>
+                <value>disallowed</value>
+            </property>
+        </action>
         <action id="a90e1373-459a-4dc7-afa0-81d57fe4104d" type="root">
             <actions>
-                <action-id>6d067888-e2da-45c1-9a01-5147bb9bbd5c</action-id>
+                <action-id>0b4e5435-559b-4a37-be20-0fe284535ee6</action-id>
             </actions>
             <property type="string">
                 <name>action-label</name>
