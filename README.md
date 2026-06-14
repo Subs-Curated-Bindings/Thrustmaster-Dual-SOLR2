@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-white.png">
+    <img src="assets/logo-color.png" alt="SubliminalsTV Curated Bindings" width="180">
+  </picture>
+</p>
+
 # Thrustmaster Dual SOL-R 2 — Star Citizen Bindings
 
 SubliminalsTV's curated **Star Citizen** binds for **dual Thrustmaster SOL-R 2** sticks, built for **Joystick Gremlin R14**.
